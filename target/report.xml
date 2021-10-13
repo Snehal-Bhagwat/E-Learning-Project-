@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="511.363793">
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Groups icon" time="59.562089">
+<system-out><![CDATA[Given User is on Elearning platform.........................................passed
+When user enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the My Courses on the menu bar...........................passed
+Then User gets redirected to the My Courses page............................passed
+And User clicks on 123testing...............................................passed
+Then User can see various icons.............................................passed
+Given User can see various icons on my courses option.......................passed
+When User clicks on Groups icon.............................................passed
+Then User is able to navigate to Groups page................................passed
+When User clicks on register button.........................................passed
+Then accept the pop up......................................................passed
+Then User can see group added message.......................................passed
+When user clicks on unregister button.......................................passed
+Then accepts the pop up.....................................................passed
+Then User can see ungroup message...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Chat icon" time="42.11132">
+<system-out><![CDATA[Given User is on Elearning platform.........................................passed
+When user enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the My Courses on the menu bar...........................passed
+Then User gets redirected to the My Courses page............................passed
+And User clicks on 123testing...............................................passed
+Then User can see various icons.............................................passed
+Given User can see various icons1...........................................passed
+When User clicks on chat icon...............................................passed
+Then User can able to goto message screen...................................passed
+When User enter "Hi There", "@#$%^&*!?<>!+=" in textarea....................passed
+Then User is able to enter text and special symbols in the write field......passed
+When User clicks send message on entering text and special symbols..........passed
+Then User is able to send message...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Assignment icon" time="62.924247">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at StepDefination.signupdefination.user_clicks_on_choose_file(signupdefination.java:407)&#13;&#10;&#9;at ✽.When User clicks on choose file(signup.feature:49)&#13;&#10;"><![CDATA[Given User is on Elearning platform.........................................passed
+When user enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the My Courses on the menu bar...........................passed
+Then User gets redirected to the My Courses page............................passed
+And User clicks on 123testing...............................................passed
+Then User can see various icons.............................................passed
+Given User can see various icons2...........................................passed
+When User clicks on assignments icon........................................passed
+Then user is able to see assignment given on selected course................passed
+When user clicks on ani assignment..........................................passed
+Then User is able to see detailed description of assignments................passed
+When user clicks on upload my assignment....................................passed
+Then User is able to open the page from where User can upload assingment....passed
+When User click on Drag and drop file.......................................passed
+Then User can be able to upload the file....................................passed
+When user clicks on upload simple button....................................passed
+Then User can see page from where user should upload assignment solution file.passed
+When User clicks on choose file.............................................failed
+Then User can be able to select file on clicking choose file button.........skipped
+Then the title and file extension should be visible.........................skipped
+When User clicks on button upload...........................................skipped
+Then User can be able to upload file........................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at StepDefination.signupdefination.user_clicks_on_choose_file(signupdefination.java:407)
+	at ✽.When User clicks on choose file(signup.feature:49)
+]]></failure>
+</testcase>
+<testcase classname="Automation Testing of Elearning Website" name="Automate the survey icon" time="60.650593">
+<system-out><![CDATA[Given User is on Elearning platform.........................................passed
+When user enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the My Courses on the menu bar...........................passed
+Then User gets redirected to the My Courses page............................passed
+And User clicks on 123testing...............................................passed
+Then User can see various icons.............................................passed
+Given User can see various icons5...........................................passed
+When User clicks on the survey icon.........................................passed
+Then User is on the survey page.............................................passed
+Then User is able to see survey name on survey page.........................passed
+Then User is able to see anonymous in survey page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Wiki icon" time="71.418041">
+<system-out><![CDATA[Given User is on Elearning platform.........................................passed
+When user enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the My Courses on the menu bar...........................passed
+Then User gets redirected to the My Courses page............................passed
+And User clicks on 123testing...............................................passed
+Then User can see various icons.............................................passed
+Given User can see various icons3...........................................passed
+When User cicks on Wiki icon................................................passed
+Then User is able to go on home page of wiki................................passed
+When User clicks on Search button...........................................passed
+Then User is able click on search button....................................passed
+Then User is able to go on search page where User can enter fields..........passed
+When user enter "Selenium" in the search term field.........................passed
+Then User is able to enter text in search term field........................passed
+Then User can see result of entered text....................................passed
+When user check the search also in content button...........................passed
+Then User is able to check the search also in content.......................passed
+When user check the Also search in older versions of each page button.......passed
+Then User is able to check Also search in older versions of each page button.passed
+When User clicks on search button after checks button.......................passed
+Then User is able to search the text on clicking search button..............passed
+When User clicks on statistics button.......................................passed
+Then user checks all links are working or not...............................passed
+Then User is able to click on all the links.................................passed
+When User clicks on all pages button........................................passed
+Then User is able to click on the all pages button..........................passed
+Then User is able to see all pages..........................................passed
+When user clicks on latest changes button...................................passed
+Then User is able to click on latest changes button.........................passed
+Then user is able to see changes made last time.............................passed
+When User clicks on notify me of changes button.............................passed
+Then User is able to click on notify me of changes button...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Assessments icon" time="63.845127">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at StepDefination.signupdefination.user_clicks_on_assessments_button_again_to_go_back(signupdefination.java:873)&#13;&#10;&#9;at ✽.Then User clicks on assessments button again to go back(signup.feature:109)&#13;&#10;"><![CDATA[Given User is on Elearning platform.........................................passed
+When user enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the My Courses on the menu bar...........................passed
+Then User gets redirected to the My Courses page............................passed
+And User clicks on 123testing...............................................passed
+Then User can see various icons.............................................passed
+Given User can see various icons4...........................................passed
+When User clicks on assessments icon........................................passed
+Then User is able to go on assessments page.................................passed
+When User clicks on list view button........................................passed
+Then User is able to see report in graph....................................passed
+When User clicks on close button............................................passed
+Then list view report will close............................................passed
+When user clicks on show button.............................................passed
+Then user is able to see available tests....................................passed
+When user clicks on mtest link..............................................passed
+Then User is on the start test page.........................................passed
+When User clicks on start test..............................................passed
+Then User is on the assessment page.........................................passed
+When User clicks on tests button again to go back...........................passed
+Then User clicks on assessments button again to go back.....................failed
+When User clicks on download report in pdf button...........................skipped
+Then User is able to download pdf...........................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at StepDefination.signupdefination.user_clicks_on_assessments_button_again_to_go_back(signupdefination.java:873)
+	at ✽.Then User clicks on assessments button again to go back(signup.feature:109)
+]]></failure>
+</testcase>
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Glossary icon" time="61.889041">
+<system-out><![CDATA[Given User is on Elearning platform.........................................passed
+When user enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the My Courses on the menu bar...........................passed
+Then User gets redirected to the My Courses page............................passed
+And User clicks on 123testing...............................................passed
+Then User can see various icons.............................................passed
+Given User can see various icon6............................................passed
+When User clicks on the glossary icon.......................................passed
+Then User is able to see glossary list page.................................passed
+When User clicks on the export button.......................................passed
+Then User is able to see different format of radio buttons..................passed
+Then User selects Export to pdf button......................................passed
+When User clicks on download button.........................................passed
+Then User is on some page...................................................passed
+When User clicks on glossary link to go back................................passed
+Then User is on the home page of glossary...................................passed
+When User clicks on the list view button....................................passed
+Then User is able to goto list page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Notebook icon" time="45.417065">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at StepDefination.signupdefination.user_enters_in_the_note_details(signupdefination.java:1095)&#13;&#10;&#9;at ✽.When User enters &quot;fdjgbrfhghojojyiojt59%^&amp;()66778u90^&amp;*&amp;(**)(()&quot; in the note details(signup.feature:135)&#13;&#10;"><![CDATA[Given User is on Elearning platform.........................................passed
+When user enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the My Courses on the menu bar...........................passed
+Then User gets redirected to the My Courses page............................passed
+And User clicks on 123testing...............................................passed
+Then User can see various icons.............................................passed
+Given User can see various icon7............................................passed
+When User clicks on the Notebook icon.......................................passed
+Then User is able to go to notebook home page...............................passed
+When User clicks on add new note in my personel notebook....................passed
+Then User is able to create new note........................................passed
+When User enters "Shweta" in note title.....................................passed
+Then User is able to enter text in note title...............................passed
+When User enters "fdjgbrfhghojojyiojt59%^&()66778u90^&*&(**)(()" in the note details.failed
+Then User is able to enter details of notes.................................skipped
+When User clicks on create note button......................................skipped
+Then User is able to create note............................................skipped
+When User clicks on sort by date created....................................skipped
+Then User is able to see that notes are sorted according its date...........skipped
+When User clicks on sort by date last modified..............................skipped
+Then User is able to see that notes are sorted according its date last modified.skipped
+When User clicks on sort by title...........................................skipped
+Then User is able to see that notes are sorted according its title..........skipped
+When User clicks on edit button to edit note................................skipped
+Then User is able to edit the note..........................................skipped
+When User clicks in note details............................................skipped
+Then User enters "Hey there" in note detail.................................skipped
+When User clicks on edit my personel note button............................skipped
+Then User is able to edit the note on clicking button.......................skipped
+When User clicks on delete button...........................................skipped
+Then User have to accept the pop up.........................................skipped
+Then User is able to see previous notes.....................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at StepDefination.signupdefination.user_enters_in_the_note_details(signupdefination.java:1095)
+	at ✽.When User enters "fdjgbrfhghojojyiojt59%^&()66778u90^&*&(**)(()" in the note details(signup.feature:135)
+]]></failure>
+</testcase>
+<testcase classname="Automation Testing of Elearning Website" name="Automate Selinium Project" time="43.54627">
+<system-out><![CDATA[Given User is on Elearning platform.........................................passed
+When user enters username and password......................................passed
+And User clicks on the login button.........................................passed
+Then User gets redirected to the dashboard..................................passed
+And User clicks on the My Courses on the menu bar...........................passed
+Then User gets redirected to the My Courses page............................passed
+And User clicks on 123testing...............................................passed
+Then User can see various icons.............................................passed
+Given User can see various icons8...........................................passed
+When User clicks on selinium project........................................passed
+Then User is able to goto selinium project home page........................passed
+When User clicks on Selenium task...........................................passed
+Then User is able to see information of that project........................passed
+Then User is able to see calender and the date of present day...............passed
+When User clicks on exp csv file............................................passed
+Then User is able to download exp file in csv format........................passed
+]]></system-out>
+</testcase>
+</testsuite>
