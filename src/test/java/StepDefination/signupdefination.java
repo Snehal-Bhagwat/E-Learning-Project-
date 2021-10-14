@@ -122,7 +122,7 @@ public class signupdefination {
 	}
 	
 	@When("^User clicks on register button$")
-	public void user_clicks_on_register_button() throws Throwable {
+	public void user_clicks_on_register_button()  {
 		try{
 			Thread.sleep(3000);
 		   driver.findElement(By.xpath("/html/body/main/section/div/div[3]/table/tbody/tr[15]/td[4]/a")).click();
@@ -138,13 +138,13 @@ public class signupdefination {
 	}
 
 	@Then("^accept the pop up$")
-	public void accept_the_pop_up() throws Throwable {
+	public void accept_the_pop_up()  {
 	    driver.switchTo().alert().accept();
 	    System.out.println("User accepts the alert message on clicking register button");
 	}
 
 	@Then("^User can see group added message$")
-	public void user_can_see_group_added_message() throws Throwable {
+	public void user_can_see_group_added_message()  {
 		try{
 			Thread.sleep(3000);
 		   driver.findElement(By.xpath("/html/body/main/section/div/div[2]")).isDisplayed();
@@ -160,7 +160,7 @@ public class signupdefination {
 	}
 
 	@When("^user clicks on unregister button$")
-	public void user_clicks_on_unregister_button() throws Throwable {
+	public void user_clicks_on_unregister_button()  {
 		try{
 			Thread.sleep(3000);
 		   driver.findElement(By.xpath("/html/body/main/section/div/div[4]/table/tbody/tr[15]/td[4]/a")).click();
@@ -176,13 +176,13 @@ public class signupdefination {
 	}
 
 	@Then("^accepts the pop up$")
-	public void accepts_the_pop_up() throws Throwable {
+	public void accepts_the_pop_up()  {
 		driver.switchTo().alert().accept();
 	    System.out.println("User accepts the alert message on clicking register button");
 	}
 
 	@Then("^User can see ungroup message$")
-	public void user_can_see_ungroup_message() throws Throwable {
+	public void user_can_see_ungroup_message()  {
 		try{
 			Thread.sleep(3000);
 		   driver.findElement(By.xpath("/html/body/main/section/div/div[2]")).isDisplayed();
@@ -193,9 +193,28 @@ public class signupdefination {
 		  System.out.println("User is not able to see group removed message"+e);
 		  Assert.fail();
 	   }
-		
-		
 	}
+	
+
+	@When("^User clicks on One of the groups$")
+	public void user_clicks_on_One_of_the_groups()  {
+		try{
+	    	Thread.sleep(3000);
+	    	driver.findElement(By.xpath("/html/body/main/section/div/div[4]/table/tbody/tr[2]/td[1]/a")).click();
+	    	System.out.println("User is able to click on one of the groups link");
+	    }
+	    catch(Exception e){
+	    	System.out.println("User is not bale to click on one of the groups link");
+	    	Assert.fail();
+	    }
+	}
+
+	@Then("^User is able to see information of that group$")
+	public void user_is_able_to_see_information_of_that_group()  {
+	   System.out.println("User is able to see information of that group");
+	}
+
+	
 	
 	
 	//chats icon page//
@@ -438,6 +457,45 @@ public class signupdefination {
 	public void user_can_be_able_to_upload_file()  {
 	    System.out.println("User is able to upload assignment solution on clickong upload button");
 	}
+	
+	@Then("^User clicks on Ani link to go back$")
+	public void user_clicks_on_Ani_link_to_go_back()  {
+		try{
+	    	Thread.sleep(3000);
+	    	driver.findElement(By.xpath("/html/body/main/section/div/ul/li[3]/a")).click();
+	    	System.out.println("User is able to click on Ani link to go back");
+	    }
+	    catch(Exception e){
+	    	System.out.println("User is not able to click on Ani link to go back"+e);
+	    	Assert.fail();
+	    }
+	}
+
+	@When("^User clicks on save button to save uploaded solution$")
+	public void user_clicks_on_save_button_to_save_uploaded_solution()  {
+		try{
+	    	Thread.sleep(3000);
+	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div[3]/div/div/div[3]/div[3]/div/table/tbody/tr[2]/td[6]/div/a[1]")).click();
+	    	System.out.println("User is able to click on save button to save uploaded solution");
+	    }
+	    catch(Exception e){
+	    	System.out.println("User is not able to click on save button to save uploaded solution"+e);
+	    	Assert.fail();
+	    }
+		
+		
+	}
+
+	@Then("^User is able to save and download the file$")
+	public void user_is_able_to_save_and_download_the_file()  {
+	    System.out.println("User is able to save and download the file");
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 	//Automate the survey icon
@@ -970,7 +1028,7 @@ public class signupdefination {
 		try{
 	    	Thread.sleep(3000);
 	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div")).isDisplayed();
-	    	System.out.println("User is some page");
+	    	System.out.println("User is on some page");
 		}
 	    catch(Exception e){
 	    	System.out.println("User is not on some page"+e);
@@ -1069,6 +1127,7 @@ public class signupdefination {
 	   try{
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("/html/body/main/section/div/form/fieldset/div[1]/div[1]/input")).sendKeys(text3);
+		System.out.println("User enters text in the note title");
 	   }
 	   catch(Exception e){
 		   System.out.println("User is not able to enter text in note title");
@@ -1092,8 +1151,8 @@ public class signupdefination {
 			System.out.println("User enters text in the note detail");
 		   }
 		   catch(Exception e){
-			   System.out.println("User is not able to enter text in note title");
-			   //Assert.fail();
+			   System.out.println("User is not able to enter text in note detail");
+			   Assert.fail();
 		   }
 		
 		

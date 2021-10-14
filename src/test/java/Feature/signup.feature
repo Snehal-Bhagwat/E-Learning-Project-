@@ -10,7 +10,7 @@ Feature: Automation Testing of Elearning Website
     And User clicks on 123testing
     Then User can see various icons
 
-  Scenario: Automate the Groups icon
+  Scenario Outline: Automate the Groups icon
     Given User can see various icons on my courses option
     When User clicks on Groups icon
     Then User is able to navigate to Groups page
@@ -20,6 +20,12 @@ Feature: Automation Testing of Elearning Website
     When user clicks on unregister button
     Then accepts the pop up
     Then User can see ungroup message
+    When User clicks on One of the groups
+    Then User is able to see information of that group
+
+    Examples: 
+      | text6   |
+      | rockers |
 
   Scenario Outline: Automate the Chat icon
     Given User can see various icons1
@@ -51,6 +57,9 @@ Feature: Automation Testing of Elearning Website
     Then the title and file extension should be visible
     When User clicks on button upload
     Then User can be able to upload file
+    Then User clicks on Ani link to go back
+    When User clicks on save button to save uploaded solution
+    Then User is able to save and download the file
 
   Scenario: Automate the survey icon
     Given User can see various icons5
@@ -153,8 +162,8 @@ Feature: Automation Testing of Elearning Website
     Then User is able to see previous notes
 
     Examples: 
-      | text3   | text4                 | text5     |
-      | Shweta1 | fdjgbrfhghojojyiojt59 | Hey there |
+      | text3 | text4                 | text5     |
+      | admin | fdjgbrfhghojojyiojt59 | Hey there |
 
   Scenario: Automate Selinium Project
     Given User can see various icons8

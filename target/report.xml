@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="511.363793">
-<testcase classname="Automation Testing of Elearning Website" name="Automate the Groups icon" time="59.562089">
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="504.515526">
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Groups icon" time="58.400308">
 <system-out><![CDATA[Given User is on Elearning platform.........................................passed
 When user enters username and password......................................passed
 And User clicks on the login button.........................................passed
@@ -18,9 +18,11 @@ Then User can see group added message.......................................pass
 When user clicks on unregister button.......................................passed
 Then accepts the pop up.....................................................passed
 Then User can see ungroup message...........................................passed
+When User clicks on One of the groups.......................................passed
+Then User is able to see information of that group..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Automation Testing of Elearning Website" name="Automate the Chat icon" time="42.11132">
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Chat icon" time="42.900866">
 <system-out><![CDATA[Given User is on Elearning platform.........................................passed
 When user enters username and password......................................passed
 And User clicks on the login button.........................................passed
@@ -38,8 +40,8 @@ When User clicks send message on entering text and special symbols..........pass
 Then User is able to send message...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Automation Testing of Elearning Website" name="Automate the Assignment icon" time="62.924247">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at StepDefination.signupdefination.user_clicks_on_choose_file(signupdefination.java:407)&#13;&#10;&#9;at ✽.When User clicks on choose file(signup.feature:49)&#13;&#10;"><![CDATA[Given User is on Elearning platform.........................................passed
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Assignment icon" time="56.825012">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at StepDefination.signupdefination.user_clicks_on_choose_file(signupdefination.java:426)&#13;&#10;&#9;at ✽.When User clicks on choose file(signup.feature:55)&#13;&#10;"><![CDATA[Given User is on Elearning platform.........................................passed
 When user enters username and password......................................passed
 And User clicks on the login button.........................................passed
 Then User gets redirected to the dashboard..................................passed
@@ -63,16 +65,19 @@ Then User can be able to select file on clicking choose file button.........skip
 Then the title and file extension should be visible.........................skipped
 When User clicks on button upload...........................................skipped
 Then User can be able to upload file........................................skipped
+Then User clicks on Ani link to go back.....................................skipped
+When User clicks on save button to save uploaded solution...................skipped
+Then User is able to save and download the file.............................skipped
 
 StackTrace:
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)
-	at StepDefination.signupdefination.user_clicks_on_choose_file(signupdefination.java:407)
-	at ✽.When User clicks on choose file(signup.feature:49)
+	at StepDefination.signupdefination.user_clicks_on_choose_file(signupdefination.java:426)
+	at ✽.When User clicks on choose file(signup.feature:55)
 ]]></failure>
 </testcase>
-<testcase classname="Automation Testing of Elearning Website" name="Automate the survey icon" time="60.650593">
+<testcase classname="Automation Testing of Elearning Website" name="Automate the survey icon" time="38.968272">
 <system-out><![CDATA[Given User is on Elearning platform.........................................passed
 When user enters username and password......................................passed
 And User clicks on the login button.........................................passed
@@ -88,7 +93,7 @@ Then User is able to see survey name on survey page.........................pass
 Then User is able to see anonymous in survey page...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Automation Testing of Elearning Website" name="Automate the Wiki icon" time="71.418041">
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Wiki icon" time="76.31016">
 <system-out><![CDATA[Given User is on Elearning platform.........................................passed
 When user enters username and password......................................passed
 And User clicks on the login button.........................................passed
@@ -125,8 +130,8 @@ When User clicks on notify me of changes button.............................pass
 Then User is able to click on notify me of changes button...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Automation Testing of Elearning Website" name="Automate the Assessments icon" time="63.845127">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at StepDefination.signupdefination.user_clicks_on_assessments_button_again_to_go_back(signupdefination.java:873)&#13;&#10;&#9;at ✽.Then User clicks on assessments button again to go back(signup.feature:109)&#13;&#10;"><![CDATA[Given User is on Elearning platform.........................................passed
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Assessments icon" time="80.437901">
+<system-out><![CDATA[Given User is on Elearning platform.........................................passed
 When user enters username and password......................................passed
 And User clicks on the login button.........................................passed
 Then User gets redirected to the dashboard..................................passed
@@ -148,19 +153,12 @@ Then User is on the start test page.........................................pass
 When User clicks on start test..............................................passed
 Then User is on the assessment page.........................................passed
 When User clicks on tests button again to go back...........................passed
-Then User clicks on assessments button again to go back.....................failed
-When User clicks on download report in pdf button...........................skipped
-Then User is able to download pdf...........................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.fail(Assert.java:95)
-	at StepDefination.signupdefination.user_clicks_on_assessments_button_again_to_go_back(signupdefination.java:873)
-	at ✽.Then User clicks on assessments button again to go back(signup.feature:109)
-]]></failure>
+Then User clicks on assessments button again to go back.....................passed
+When User clicks on download report in pdf button...........................passed
+Then User is able to download pdf...........................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Automation Testing of Elearning Website" name="Automate the Glossary icon" time="61.889041">
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Glossary icon" time="63.238617">
 <system-out><![CDATA[Given User is on Elearning platform.........................................passed
 When user enters username and password......................................passed
 And User clicks on the login button.........................................passed
@@ -183,8 +181,8 @@ When User clicks on the list view button....................................pass
 Then User is able to goto list page.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Automation Testing of Elearning Website" name="Automate the Notebook icon" time="45.417065">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at StepDefination.signupdefination.user_enters_in_the_note_details(signupdefination.java:1095)&#13;&#10;&#9;at ✽.When User enters &quot;fdjgbrfhghojojyiojt59%^&amp;()66778u90^&amp;*&amp;(**)(()&quot; in the note details(signup.feature:135)&#13;&#10;"><![CDATA[Given User is on Elearning platform.........................................passed
+<testcase classname="Automation Testing of Elearning Website" name="Automate the Notebook icon" time="47.359537">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at StepDefination.signupdefination.user_enters_in_the_note_details(signupdefination.java:1155)&#13;&#10;&#9;at ✽.When User enters &quot;fdjgbrfhghojojyiojt59&quot; in the note details(signup.feature:146)&#13;&#10;"><![CDATA[Given User is on Elearning platform.........................................passed
 When user enters username and password......................................passed
 And User clicks on the login button.........................................passed
 Then User gets redirected to the dashboard..................................passed
@@ -197,9 +195,9 @@ When User clicks on the Notebook icon.......................................pass
 Then User is able to go to notebook home page...............................passed
 When User clicks on add new note in my personel notebook....................passed
 Then User is able to create new note........................................passed
-When User enters "Shweta" in note title.....................................passed
+When User enters "Shweta1" in note title....................................passed
 Then User is able to enter text in note title...............................passed
-When User enters "fdjgbrfhghojojyiojt59%^&()66778u90^&*&(**)(()" in the note details.failed
+When User enters "fdjgbrfhghojojyiojt59" in the note details................failed
 Then User is able to enter details of notes.................................skipped
 When User clicks on create note button......................................skipped
 Then User is able to create note............................................skipped
@@ -223,11 +221,11 @@ StackTrace:
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.fail(Assert.java:95)
-	at StepDefination.signupdefination.user_enters_in_the_note_details(signupdefination.java:1095)
-	at ✽.When User enters "fdjgbrfhghojojyiojt59%^&()66778u90^&*&(**)(()" in the note details(signup.feature:135)
+	at StepDefination.signupdefination.user_enters_in_the_note_details(signupdefination.java:1155)
+	at ✽.When User enters "fdjgbrfhghojojyiojt59" in the note details(signup.feature:146)
 ]]></failure>
 </testcase>
-<testcase classname="Automation Testing of Elearning Website" name="Automate Selinium Project" time="43.54627">
+<testcase classname="Automation Testing of Elearning Website" name="Automate Selinium Project" time="40.074853">
 <system-out><![CDATA[Given User is on Elearning platform.........................................passed
 When user enters username and password......................................passed
 And User clicks on the login button.........................................passed
