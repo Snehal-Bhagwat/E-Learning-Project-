@@ -21,6 +21,6 @@ public class hooks {
 	public void closedriver()
 	{
 		System.out.println("The browser is closing now");
-		driver.quit();
+		//driver.quit();
 	}
 }

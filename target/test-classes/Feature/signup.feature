@@ -133,6 +133,7 @@ Feature: Automation Testing of Elearning Website
     When User clicks on the list view button
     Then User is able to goto list page
 
+	@adm
   Scenario Outline: Automate the Notebook icon
     Given User can see various icon7
     When User clicks on the Notebook icon

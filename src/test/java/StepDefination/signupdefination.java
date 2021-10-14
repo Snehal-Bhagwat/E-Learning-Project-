@@ -1145,13 +1145,13 @@ public class signupdefination {
 	@When("^User enters \"([^\"]*)\" in the note details$")
 	public void user_enters_in_the_note_details(String text4)  {
 		try{
-			Thread.sleep(3000);
-			driver.switchTo().frame(1);
+			Thread.sleep(5000);
+			driver.switchTo().frame(0);
 			driver.findElement(By.xpath("//body/p")).sendKeys(text4);
 			System.out.println("User enters text in the note detail");
 		   }
 		   catch(Exception e){
-			   System.out.println("User is not able to enter text in note detail");
+			   System.out.println("User is not able to enter text in note detail"+e);
 			   Assert.fail();
 		   }
 		
@@ -1263,12 +1263,12 @@ public class signupdefination {
 	public void user_clicks_in_note_details()  {
 		try{
 			Thread.sleep(3000);
-			driver.switchTo().frame(1);
+			driver.switchTo().frame(0);
 			driver.findElement(By.xpath("//body/p")).click();
-			System.out.println("User is able to click in note title");
+			System.out.println("User is able to click in note detials");
 		   }
 		   catch(Exception e){
-			   System.out.println("User is not able to click in note title");
+			   System.out.println("User is not able to click in note detials");
 			   Assert.fail();
 		   }
 	}
@@ -1279,11 +1279,11 @@ public class signupdefination {
 			Thread.sleep(3000);
 			driver.switchTo().frame(0);
 			driver.findElement(By.xpath("//body/p")).sendKeys(text5);
-			System.out.println("User is able to enter text in note title");
+			System.out.println("User is able to enter text in note details");
 		   }
 		   catch(Exception e){
-			   System.out.println("User is not able to enter text in note title");
-			   //Assert.fail();
+			   System.out.println("User is not able to enter text in note details");
+			   Assert.fail();
 		   }
 	}
 

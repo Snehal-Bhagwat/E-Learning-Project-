@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7737006200,
+              "duration": 8944131400,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 1453643400,
+              "duration": 1400856100,
               "status": "passed"
             },
             "line": 5,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 9451974100,
+              "duration": 7981031300,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 161700,
+              "duration": 76600,
               "status": "passed"
             },
             "line": 7,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 2023888500,
+              "duration": 2030605200,
               "status": "passed"
             },
             "line": 8,
@@ -68,1871 +68,12 @@
               "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
             },
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 98300,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User gets redirected to the My Courses page",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6135572300,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks on 123testing",
-            "match": {
-              "location": "signupdefination.user_clicks_on_123testing()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1046600,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User can see various icons",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 5791950100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.initialization()"
-            }
-          }
-        ],
-        "line": 28,
-        "name": "Automate the Groups icon",
-        "description": "",
-        "id": "automation-testing-of-elearning-website;automate-the-groups-icon;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 910652200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.closedriver()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 149300,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "User can see various icons on my courses option",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons_on_my_courses_option()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5293253500,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User clicks on Groups icon",
-            "match": {
-              "location": "signupdefination.user_clicks_on_Groups_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 106600,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User is able to navigate to Groups page",
-            "match": {
-              "location": "signupdefination.user_is_able_to_navigate_to_Groups_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3225065400,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User clicks on register button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 40660700,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "accept the pop up",
-            "match": {
-              "location": "signupdefination.accept_the_pop_up()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3246480800,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User can see group added message",
-            "match": {
-              "location": "signupdefination.user_can_see_group_added_message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3117808300,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user clicks on unregister button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_unregister_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 22177700,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "accepts the pop up",
-            "match": {
-              "location": "signupdefination.accepts_the_pop_up()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3079055900,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "User can see ungroup message",
-            "match": {
-              "location": "signupdefination.user_can_see_ungroup_message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6869439200,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "User clicks on One of the groups",
-            "match": {
-              "location": "signupdefination.user_clicks_on_One_of_the_groups()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 116800,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "User is able to see information of that group",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_information_of_that_group()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Automated login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7974438300,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on Elearning platform",
-            "match": {
-              "location": "signupdefination.user_is_on_Elearning_platform()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1410790500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters username and password",
-            "match": {
-              "location": "signupdefination.user_enters_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8353744400,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User clicks on the login button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 93500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User gets redirected to the dashboard",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2016455100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on the My Courses on the menu bar",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 62800,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User gets redirected to the My Courses page",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6081582000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks on 123testing",
-            "match": {
-              "location": "signupdefination.user_clicks_on_123testing()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 91500,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User can see various icons",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 2141463700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.initialization()"
-            }
-          }
-        ],
-        "line": 41,
-        "name": "Automate the Chat icon",
-        "description": "",
-        "id": "automation-testing-of-elearning-website;automate-the-chat-icon;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 1012577300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.closedriver()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 80400,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "User can see various icons1",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons1()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2294633600,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "User clicks on chat icon",
-            "match": {
-              "location": "signupdefination.user_clicks_on_chat_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 113100,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "User can able to goto message screen",
-            "match": {
-              "location": "signupdefination.user_can_able_to_goto_message_screen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8371256600,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "User enter \"Hi There\", \"@#$%^\u0026*!?\u003c\u003e!+\u003d\" in textarea",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Hi There",
-                  "offset": 12
-                },
-                {
-                  "val": "@#$%^\u0026*!?\u003c\u003e!+\u003d",
-                  "offset": 24
-                }
-              ],
-              "location": "signupdefination.user_enter_in_textarea(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 81900,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "User is able to enter text and special symbols in the write field",
-            "match": {
-              "location": "signupdefination.user_is_able_to_enter_text_and_special_symbols_in_the_write_field()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3243259000,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "User clicks send message on entering text and special symbols",
-            "match": {
-              "location": "signupdefination.user_clicks_send_message_on_entering_text_and_special_symbols()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 141800,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "User is able to send message",
-            "match": {
-              "location": "signupdefination.user_is_able_to_send_message()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Automated login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7343228800,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on Elearning platform",
-            "match": {
-              "location": "signupdefination.user_is_on_Elearning_platform()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1307300000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters username and password",
-            "match": {
-              "location": "signupdefination.user_enters_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8017109900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User clicks on the login button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 107300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User gets redirected to the dashboard",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2019002500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on the My Courses on the menu bar",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 68300,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User gets redirected to the My Courses page",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5983445700,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks on 123testing",
-            "match": {
-              "location": "signupdefination.user_clicks_on_123testing()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 125600,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User can see various icons",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 2097221500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.initialization()"
-            }
-          }
-        ],
-        "line": 43,
-        "name": "Automate the Assignment icon",
-        "description": "",
-        "id": "automation-testing-of-elearning-website;automate-the-assignment-icon",
-        "after": [
-          {
-            "result": {
-              "duration": 1156739400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.closedriver()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 152100,
-              "status": "passed"
-            },
-            "line": 44,
-            "name": "User can see various icons2",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons2()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7249780700,
-              "status": "passed"
-            },
-            "line": 45,
-            "name": "User clicks on assignments icon",
-            "match": {
-              "location": "signupdefination.user_clicks_on_assignments_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 216000,
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "user is able to see assignment given on selected course",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_assignment_given_on_selected_course()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6012023700,
-              "status": "passed"
-            },
-            "line": 47,
-            "name": "user clicks on ani assignment",
-            "match": {
-              "location": "signupdefination.user_clicks_on_ani_assignment()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 53400,
-              "status": "passed"
-            },
-            "line": 48,
-            "name": "User is able to see detailed description of assignments",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_detailed_description_of_assignments()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6234312100,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "user clicks on upload my assignment",
-            "match": {
-              "location": "signupdefination.user_clicks_on_upload_my_assignment()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 114500,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "User is able to open the page from where User can upload assingment",
-            "match": {
-              "location": "signupdefination.user_is_able_to_open_the_page_from_where_User_can_upload_assingment()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3114643700,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "User click on Drag and drop file",
-            "match": {
-              "location": "signupdefination.user_click_on_Drag_and_drop_file()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 96900,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "User can be able to upload the file",
-            "match": {
-              "location": "signupdefination.user_can_be_able_to_upload_the_file()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3129543700,
-              "status": "passed"
-            },
-            "line": 53,
-            "name": "user clicks on upload simple button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_upload_simple_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 105800,
-              "status": "passed"
-            },
-            "line": 54,
-            "name": "User can see page from where user should upload assignment solution file",
-            "match": {
-              "location": "signupdefination.user_can_see_page_from_where_user_should_upload_assignment_solution_file()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3159620100,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat StepDefination.signupdefination.user_clicks_on_choose_file(signupdefination.java:426)\r\n\tat ✽.When User clicks on choose file(signup.feature:55)\r\n",
-              "status": "failed"
-            },
-            "line": 55,
-            "name": "User clicks on choose file",
-            "match": {
-              "location": "signupdefination.user_clicks_on_choose_file()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 56,
-            "name": "User can be able to select file on clicking choose file button",
-            "match": {
-              "location": "signupdefination.user_can_be_able_to_select_file_on_clicking_choose_file_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 57,
-            "name": "the title and file extension should be visible",
-            "match": {
-              "location": "signupdefination.the_title_and_file_extension_should_be_visible()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 58,
-            "name": "User clicks on button upload",
-            "match": {
-              "location": "signupdefination.user_clicks_on_button_upload()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 59,
-            "name": "User can be able to upload file",
-            "match": {
-              "location": "signupdefination.user_can_be_able_to_upload_file()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 60,
-            "name": "User clicks on Ani link to go back",
-            "match": {
-              "location": "signupdefination.user_clicks_on_Ani_link_to_go_back()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 61,
-            "name": "User clicks on save button to save uploaded solution",
-            "match": {
-              "location": "signupdefination.user_clicks_on_save_button_to_save_uploaded_solution()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 62,
-            "name": "User is able to save and download the file",
-            "match": {
-              "location": "signupdefination.user_is_able_to_save_and_download_the_file()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Automated login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 6861998900,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on Elearning platform",
-            "match": {
-              "location": "signupdefination.user_is_on_Elearning_platform()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1395526900,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters username and password",
-            "match": {
-              "location": "signupdefination.user_enters_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 9180464500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User clicks on the login button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 51600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User gets redirected to the dashboard",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2027063600,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on the My Courses on the menu bar",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 97700,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User gets redirected to the My Courses page",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6257562100,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks on 123testing",
-            "match": {
-              "location": "signupdefination.user_clicks_on_123testing()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 88200,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User can see various icons",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1871817100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.initialization()"
-            }
-          }
-        ],
-        "line": 66,
-        "name": "Automate the survey icon",
-        "description": "",
-        "id": "automation-testing-of-elearning-website;automate-the-survey-icon",
-        "after": [
-          {
-            "result": {
-              "duration": 959701500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.closedriver()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 111300,
-              "status": "passed"
-            },
-            "line": 67,
-            "name": "User can see various icons5",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons5()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4217498600,
-              "status": "passed"
-            },
-            "line": 68,
-            "name": "User clicks on the survey icon",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_survey_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 54200,
-              "status": "passed"
-            },
-            "line": 69,
-            "name": "User is on the survey page",
-            "match": {
-              "location": "signupdefination.user_is_on_the_survey_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3105638000,
-              "status": "passed"
-            },
-            "line": 70,
-            "name": "User is able to see survey name on survey page",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_survey_name_on_survey_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3090597600,
-              "status": "passed"
-            },
-            "line": 71,
-            "name": "User is able to see anonymous in survey page",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_anonymous_in_survey_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Automated login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7228946500,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on Elearning platform",
-            "match": {
-              "location": "signupdefination.user_is_on_Elearning_platform()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1448251300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters username and password",
-            "match": {
-              "location": "signupdefination.user_enters_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8050989800,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User clicks on the login button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 42400,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User gets redirected to the dashboard",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2019115200,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on the My Courses on the menu bar",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 52000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User gets redirected to the My Courses page",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6641302100,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks on 123testing",
-            "match": {
-              "location": "signupdefination.user_clicks_on_123testing()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 91500,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User can see various icons",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1953349500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.initialization()"
-            }
-          }
-        ],
-        "line": 103,
-        "name": "Automate the Wiki icon",
-        "description": "",
-        "id": "automation-testing-of-elearning-website;automate-the-wiki-icon;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 965581200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.closedriver()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 117100,
-              "status": "passed"
-            },
-            "line": 74,
-            "name": "User can see various icons3",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons3()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5997226600,
-              "status": "passed"
-            },
-            "line": 75,
-            "name": "User cicks on Wiki icon",
-            "match": {
-              "location": "signupdefination.user_cicks_on_Wiki_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 51800,
-              "status": "passed"
-            },
-            "line": 76,
-            "name": "User is able to go on home page of wiki",
-            "match": {
-              "location": "signupdefination.user_is_able_to_go_on_home_page_of_wiki()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4796206000,
-              "status": "passed"
-            },
-            "line": 77,
-            "name": "User clicks on Search button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_Search_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 77200,
-              "status": "passed"
-            },
-            "line": 78,
-            "name": "User is able click on search button",
-            "match": {
-              "location": "signupdefination.user_is_able_click_on_search_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 90400,
-              "status": "passed"
-            },
-            "line": 79,
-            "name": "User is able to go on search page where User can enter fields",
-            "match": {
-              "location": "signupdefination.user_is_able_to_go_on_search_page_where_User_can_enter_fields()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1143012800,
-              "status": "passed"
-            },
-            "line": 80,
-            "name": "user enter \"Selenium\" in the search term field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Selenium",
-                  "offset": 12
-                }
-              ],
-              "location": "signupdefination.user_enter_in_the_search_term_field(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 112800,
-              "status": "passed"
-            },
-            "line": 81,
-            "name": "User is able to enter text in search term field",
-            "match": {
-              "location": "signupdefination.user_is_able_to_enter_text_in_search_term_field()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 99000,
-              "status": "passed"
-            },
-            "line": 82,
-            "name": "User can see result of entered text",
-            "match": {
-              "location": "signupdefination.user_can_see_result_of_entered_text()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3135264800,
-              "status": "passed"
-            },
-            "line": 83,
-            "name": "user check the search also in content button",
-            "match": {
-              "location": "signupdefination.user_check_the_search_also_in_content_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 114700,
-              "status": "passed"
-            },
-            "line": 84,
-            "name": "User is able to check the search also in content",
-            "match": {
-              "location": "signupdefination.user_is_able_to_check_the_search_also_in_content()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3148888600,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "user check the Also search in older versions of each page button",
-            "match": {
-              "location": "signupdefination.user_check_the_Also_search_in_older_versions_of_each_page_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 83700,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "User is able to check Also search in older versions of each page button",
-            "match": {
-              "location": "signupdefination.user_is_able_to_check_Also_search_in_older_versions_of_each_page_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5673686800,
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "User clicks on search button after checks button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_search_button_after_checks_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 212000,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "User is able to search the text on clicking search button",
-            "match": {
-              "location": "signupdefination.user_is_able_to_search_the_text_on_clicking_search_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4441943200,
-              "status": "passed"
-            },
-            "line": 89,
-            "name": "User clicks on statistics button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_statistics_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4387319800,
-              "status": "passed"
-            },
-            "line": 90,
-            "name": "user checks all links are working or not",
-            "match": {
-              "location": "signupdefination.user_checks_all_links_are_working_or_not()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 108400,
-              "status": "passed"
-            },
-            "line": 91,
-            "name": "User is able to click on all the links",
-            "match": {
-              "location": "signupdefination.user_is_able_to_click_on_all_the_links()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5425287400,
-              "status": "passed"
-            },
-            "line": 92,
-            "name": "User clicks on all pages button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_all_pages_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 132700,
-              "status": "passed"
-            },
-            "line": 93,
-            "name": "User is able to click on the all pages button",
-            "match": {
-              "location": "signupdefination.user_is_able_to_click_on_the_all_pages_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 81600,
-              "status": "passed"
-            },
-            "line": 94,
-            "name": "User is able to see all pages",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_all_pages()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5239536400,
-              "status": "passed"
-            },
-            "line": 95,
-            "name": "user clicks on latest changes button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_latest_changes_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 137500,
-              "status": "passed"
-            },
-            "line": 96,
-            "name": "User is able to click on latest changes button",
-            "match": {
-              "location": "signupdefination.user_is_able_to_click_on_latest_changes_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 112600,
-              "status": "passed"
-            },
-            "line": 97,
-            "name": "user is able to see changes made last time",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_changes_made_last_time()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4612431900,
-              "status": "passed"
-            },
-            "line": 98,
-            "name": "User clicks on notify me of changes button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_notify_me_of_changes_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 103000,
-              "status": "passed"
-            },
-            "line": 99,
-            "name": "User is able to click on notify me of changes button",
-            "match": {
-              "location": "signupdefination.user_is_able_to_click_on_notify_me_of_changes_button()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Automated login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 9258870300,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on Elearning platform",
-            "match": {
-              "location": "signupdefination.user_is_on_Elearning_platform()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1935795500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters username and password",
-            "match": {
-              "location": "signupdefination.user_enters_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8137158600,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User clicks on the login button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 35300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User gets redirected to the dashboard",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2008875500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on the My Courses on the menu bar",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 48200,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User gets redirected to the My Courses page",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7262211600,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks on 123testing",
-            "match": {
-              "location": "signupdefination.user_clicks_on_123testing()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 64800,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User can see various icons",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 2036827200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.initialization()"
-            }
-          }
-        ],
-        "line": 105,
-        "name": "Automate the Assessments icon",
-        "description": "",
-        "id": "automation-testing-of-elearning-website;automate-the-assessments-icon",
-        "after": [
-          {
-            "result": {
-              "duration": 1144044200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.closedriver()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 102900,
-              "status": "passed"
-            },
-            "line": 106,
-            "name": "User can see various icons4",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons4()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6497503900,
-              "status": "passed"
-            },
-            "line": 107,
-            "name": "User clicks on assessments icon",
-            "match": {
-              "location": "signupdefination.user_clicks_on_assessments_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 95900,
-              "status": "passed"
-            },
-            "line": 108,
-            "name": "User is able to go on assessments page",
-            "match": {
-              "location": "signupdefination.user_is_able_to_go_on_assessments_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3138531500,
-              "status": "passed"
-            },
-            "line": 109,
-            "name": "User clicks on list view button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_list_view_button()"
-            },
-            "keyword": "When "
           },
           {
             "result": {
               "duration": 78700,
               "status": "passed"
             },
-            "line": 110,
-            "name": "User is able to see report in graph",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_report_in_graph()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3116265900,
-              "status": "passed"
-            },
-            "line": 111,
-            "name": "User clicks on close button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_close_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 58800,
-              "status": "passed"
-            },
-            "line": 112,
-            "name": "list view report will close",
-            "match": {
-              "location": "signupdefination.list_view_report_will_close()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4107499600,
-              "status": "passed"
-            },
-            "line": 113,
-            "name": "user clicks on show button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_show_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 65400,
-              "status": "passed"
-            },
-            "line": 114,
-            "name": "user is able to see available tests",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_available_tests()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6878915000,
-              "status": "passed"
-            },
-            "line": 115,
-            "name": "user clicks on mtest link",
-            "match": {
-              "location": "signupdefination.user_clicks_on_mtest_link()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 165800,
-              "status": "passed"
-            },
-            "line": 116,
-            "name": "User is on the start test page",
-            "match": {
-              "location": "signupdefination.user_is_on_the_start_test_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6898862900,
-              "status": "passed"
-            },
-            "line": 117,
-            "name": "User clicks on start test",
-            "match": {
-              "location": "signupdefination.user_clicks_on_start_test()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 71200,
-              "status": "passed"
-            },
-            "line": 118,
-            "name": "User is on the assessment page",
-            "match": {
-              "location": "signupdefination.user_is_on_the_assessment_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4709957100,
-              "status": "passed"
-            },
-            "line": 119,
-            "name": "User clicks on tests button again to go back",
-            "match": {
-              "location": "signupdefination.user_clicks_on_tests_button_again_to_go_back()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5175635300,
-              "status": "passed"
-            },
-            "line": 120,
-            "name": "User clicks on assessments button again to go back",
-            "match": {
-              "location": "signupdefination.user_clicks_on_assessments_button_again_to_go_back()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8130060900,
-              "status": "passed"
-            },
-            "line": 121,
-            "name": "User clicks on download report in pdf button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_download_report_in_pdf_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 99200,
-              "status": "passed"
-            },
-            "line": 122,
-            "name": "User is able to download pdf",
-            "match": {
-              "location": "signupdefination.user_is_able_to_download_pdf()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Automated login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7189378100,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on Elearning platform",
-            "match": {
-              "location": "signupdefination.user_is_on_Elearning_platform()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1351657000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters username and password",
-            "match": {
-              "location": "signupdefination.user_enters_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 7889088800,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User clicks on the login button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 41500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User gets redirected to the dashboard",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2019848000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on the My Courses on the menu bar",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 37400,
-              "status": "passed"
-            },
             "line": 9,
             "name": "User gets redirected to the My Courses page",
             "match": {
@@ -1942,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 7424500100,
+              "duration": 5757752700,
               "status": "passed"
             },
             "line": 10,
@@ -1954,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 74300,
+              "duration": 174800,
               "status": "passed"
             },
             "line": 11,
@@ -1970,7 +111,7 @@
         "before": [
           {
             "result": {
-              "duration": 1931488600,
+              "duration": 6012199400,
               "status": "passed"
             },
             "match": {
@@ -1978,295 +119,14 @@
             }
           }
         ],
-        "line": 124,
-        "name": "Automate the Glossary icon",
-        "description": "",
-        "id": "automation-testing-of-elearning-website;automate-the-glossary-icon",
-        "after": [
-          {
-            "result": {
-              "duration": 934673500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.closedriver()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 103600,
-              "status": "passed"
-            },
-            "line": 125,
-            "name": "User can see various icon6",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icon6()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7720194800,
-              "status": "passed"
-            },
-            "line": 126,
-            "name": "User clicks on the glossary icon",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_glossary_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 71300,
-              "status": "passed"
-            },
-            "line": 127,
-            "name": "User is able to see glossary list page",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_glossary_list_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3200284700,
-              "status": "passed"
-            },
-            "line": 128,
-            "name": "User clicks on the export button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_export_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 91400,
-              "status": "passed"
-            },
-            "line": 129,
-            "name": "User is able to see different format of radio buttons",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_different_format_of_radio_buttons()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3226880800,
-              "status": "passed"
-            },
-            "line": 130,
-            "name": "User selects Export to pdf button",
-            "match": {
-              "location": "signupdefination.user_selects_Export_to_pdf_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4964312500,
-              "status": "passed"
-            },
-            "line": 131,
-            "name": "User clicks on download button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_download_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3123975000,
-              "status": "passed"
-            },
-            "line": 132,
-            "name": "User is on some page",
-            "match": {
-              "location": "signupdefination.user_is_on_some_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6431308600,
-              "status": "passed"
-            },
-            "line": 133,
-            "name": "User clicks on glossary link to go back",
-            "match": {
-              "location": "signupdefination.user_clicks_on_glossary_link_to_go_back()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 112000,
-              "status": "passed"
-            },
-            "line": 134,
-            "name": "User is on the home page of glossary",
-            "match": {
-              "location": "signupdefination.user_is_on_the_home_page_of_glossary()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5828894700,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User clicks on the list view button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_list_view_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1600600,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "User is able to goto list page",
-            "match": {
-              "location": "signupdefination.user_is_able_to_goto_list_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Automated login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 9481567500,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on Elearning platform",
-            "match": {
-              "location": "signupdefination.user_is_on_Elearning_platform()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1330595700,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters username and password",
-            "match": {
-              "location": "signupdefination.user_enters_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8448083100,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User clicks on the login button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 50100,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User gets redirected to the dashboard",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2006014900,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on the My Courses on the menu bar",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 126600,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User gets redirected to the My Courses page",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6050265700,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks on 123testing",
-            "match": {
-              "location": "signupdefination.user_clicks_on_123testing()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 282600,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User can see various icons",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1983314800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.initialization()"
-            }
-          }
-        ],
-        "line": 168,
+        "line": 167,
         "name": "Automate the Notebook icon",
         "description": "",
         "id": "automation-testing-of-elearning-website;automate-the-notebook-icon;;2",
         "after": [
           {
             "result": {
-              "duration": 1031903400,
+              "duration": 227900,
               "status": "passed"
             },
             "match": {
@@ -2279,10 +139,10 @@
         "steps": [
           {
             "result": {
-              "duration": 105000,
+              "duration": 92100,
               "status": "passed"
             },
-            "line": 139,
+            "line": 138,
             "name": "User can see various icon7",
             "match": {
               "location": "signupdefination.user_can_see_various_icon7()"
@@ -2291,10 +151,10 @@
           },
           {
             "result": {
-              "duration": 5151951600,
+              "duration": 6566647300,
               "status": "passed"
             },
-            "line": 140,
+            "line": 139,
             "name": "User clicks on the Notebook icon",
             "match": {
               "location": "signupdefination.user_clicks_on_the_Notebook_icon()"
@@ -2303,10 +163,10 @@
           },
           {
             "result": {
-              "duration": 110400,
+              "duration": 1830100,
               "status": "passed"
             },
-            "line": 141,
+            "line": 140,
             "name": "User is able to go to notebook home page",
             "match": {
               "location": "signupdefination.user_is_able_to_go_to_notebook_home_page()"
@@ -2315,10 +175,10 @@
           },
           {
             "result": {
-              "duration": 5682948400,
+              "duration": 7020567100,
               "status": "passed"
             },
-            "line": 142,
+            "line": 141,
             "name": "User clicks on add new note in my personel notebook",
             "match": {
               "location": "signupdefination.user_clicks_on_add_new_note_in_my_personel_notebook()"
@@ -2327,10 +187,10 @@
           },
           {
             "result": {
-              "duration": 52300,
+              "duration": 111800,
               "status": "passed"
             },
-            "line": 143,
+            "line": 142,
             "name": "User is able to create new note",
             "match": {
               "location": "signupdefination.user_is_able_to_create_new_note()"
@@ -2339,15 +199,15 @@
           },
           {
             "result": {
-              "duration": 3135394200,
+              "duration": 3167570800,
               "status": "passed"
             },
-            "line": 144,
-            "name": "User enters \"Shweta1\" in note title",
+            "line": 143,
+            "name": "User enters \"admin\" in note title",
             "match": {
               "arguments": [
                 {
-                  "val": "Shweta1",
+                  "val": "admin",
                   "offset": 13
                 }
               ],
@@ -2360,10 +220,10 @@
           },
           {
             "result": {
-              "duration": 256700,
+              "duration": 94700,
               "status": "passed"
             },
-            "line": 145,
+            "line": 144,
             "name": "User is able to enter text in note title",
             "match": {
               "location": "signupdefination.user_is_able_to_enter_text_in_note_title()"
@@ -2372,11 +232,11 @@
           },
           {
             "result": {
-              "duration": 3056513700,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat StepDefination.signupdefination.user_enters_in_the_note_details(signupdefination.java:1155)\r\n\tat ✽.When User enters \"fdjgbrfhghojojyiojt59\" in the note details(signup.feature:146)\r\n",
+              "duration": 5237883900,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat StepDefination.signupdefination.user_enters_in_the_note_details(signupdefination.java:1155)\r\n\tat ✽.When User enters \"fdjgbrfhghojojyiojt59\" in the note details(signup.feature:145)\r\n",
               "status": "failed"
             },
-            "line": 146,
+            "line": 145,
             "name": "User enters \"fdjgbrfhghojojyiojt59\" in the note details",
             "match": {
               "arguments": [
@@ -2396,7 +256,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 147,
+            "line": 146,
             "name": "User is able to enter details of notes",
             "match": {
               "location": "signupdefination.user_is_able_to_enter_details_of_notes()"
@@ -2407,7 +267,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 148,
+            "line": 147,
             "name": "User clicks on create note button",
             "match": {
               "location": "signupdefination.user_clicks_on_create_note_button()"
@@ -2418,7 +278,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 149,
+            "line": 148,
             "name": "User is able to create note",
             "match": {
               "location": "signupdefination.user_is_able_to_create_note()"
@@ -2429,7 +289,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 150,
+            "line": 149,
             "name": "User clicks on sort by date created",
             "match": {
               "location": "signupdefination.user_clicks_on_sort_by_date_created()"
@@ -2440,7 +300,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 151,
+            "line": 150,
             "name": "User is able to see that notes are sorted according its date",
             "match": {
               "location": "signupdefination.user_is_able_to_see_that_notes_are_sorted_according_its_date()"
@@ -2451,7 +311,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 152,
+            "line": 151,
             "name": "User clicks on sort by date last modified",
             "match": {
               "location": "signupdefination.user_clicks_on_sort_by_date_last_modified()"
@@ -2462,7 +322,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 153,
+            "line": 152,
             "name": "User is able to see that notes are sorted according its date last modified",
             "match": {
               "location": "signupdefination.user_is_able_to_see_that_notes_are_sorted_according_its_date_last_modified()"
@@ -2473,7 +333,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 154,
+            "line": 153,
             "name": "User clicks on sort by title",
             "match": {
               "location": "signupdefination.user_clicks_on_sort_by_title()"
@@ -2484,7 +344,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 155,
+            "line": 154,
             "name": "User is able to see that notes are sorted according its title",
             "match": {
               "location": "signupdefination.user_is_able_to_see_that_notes_are_sorted_according_its_title()"
@@ -2495,7 +355,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 156,
+            "line": 155,
             "name": "User clicks on edit button to edit note",
             "match": {
               "location": "signupdefination.user_clicks_on_edit_button_to_edit_note()"
@@ -2506,7 +366,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 157,
+            "line": 156,
             "name": "User is able to edit the note",
             "match": {
               "location": "signupdefination.user_is_able_to_edit_the_note()"
@@ -2517,7 +377,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 158,
+            "line": 157,
             "name": "User clicks in note details",
             "match": {
               "location": "signupdefination.user_clicks_in_note_details()"
@@ -2528,7 +388,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 159,
+            "line": 158,
             "name": "User enters \"Hey there\" in note detail",
             "match": {
               "arguments": [
@@ -2548,7 +408,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 160,
+            "line": 159,
             "name": "User clicks on edit my personel note button",
             "match": {
               "location": "signupdefination.user_clicks_on_edit_my_personel_note_button()"
@@ -2559,7 +419,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 161,
+            "line": 160,
             "name": "User is able to edit the note on clicking button",
             "match": {
               "location": "signupdefination.user_is_able_to_edit_the_note_on_clicking_button()"
@@ -2570,7 +430,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 162,
+            "line": 161,
             "name": "User clicks on delete button",
             "match": {
               "location": "signupdefination.user_clicks_on_delete_button()"
@@ -2581,7 +441,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 163,
+            "line": 162,
             "name": "User have to accept the pop up",
             "match": {
               "location": "signupdefination.user_have_to_accept_the_pop_up()"
@@ -2592,245 +452,18 @@
             "result": {
               "status": "skipped"
             },
-            "line": 164,
+            "line": 163,
             "name": "User is able to see previous notes",
             "match": {
               "location": "signupdefination.user_is_able_to_see_previous_notes()"
             },
             "keyword": "Then "
           }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Automated login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7483275800,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on Elearning platform",
-            "match": {
-              "location": "signupdefination.user_is_on_Elearning_platform()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1335987200,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters username and password",
-            "match": {
-              "location": "signupdefination.user_enters_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 7723770000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User clicks on the login button",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 62200,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User gets redirected to the dashboard",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2017911400,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on the My Courses on the menu bar",
-            "match": {
-              "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 44000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User gets redirected to the My Courses page",
-            "match": {
-              "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5249740500,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks on 123testing",
-            "match": {
-              "location": "signupdefination.user_clicks_on_123testing()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 88900,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User can see various icons",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1971593300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.initialization()"
-            }
-          }
         ],
-        "line": 170,
-        "name": "Automate Selinium Project",
-        "description": "",
-        "id": "automation-testing-of-elearning-website;automate-selinium-project",
-        "after": [
+        "tags": [
           {
-            "result": {
-              "duration": 984249400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "hooks.closedriver()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 161600,
-              "status": "passed"
-            },
-            "line": 171,
-            "name": "User can see various icons8",
-            "match": {
-              "location": "signupdefination.user_can_see_various_icons8()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4580430800,
-              "status": "passed"
-            },
-            "line": 172,
-            "name": "User clicks on selinium project",
-            "match": {
-              "location": "signupdefination.user_clicks_on_selinium_project()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 72900,
-              "status": "passed"
-            },
-            "line": 173,
-            "name": "User is able to goto selinium project home page",
-            "match": {
-              "location": "signupdefination.user_is_able_to_goto_selinium_project_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4308509000,
-              "status": "passed"
-            },
-            "line": 174,
-            "name": "User clicks on Selenium task",
-            "match": {
-              "location": "signupdefination.user_clicks_on_Selenium_task()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 45000,
-              "status": "passed"
-            },
-            "line": 175,
-            "name": "User is able to see information of that project",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_information_of_that_project()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 33900,
-              "status": "passed"
-            },
-            "line": 176,
-            "name": "User is able to see calender and the date of present day",
-            "match": {
-              "location": "signupdefination.user_is_able_to_see_calender_and_the_date_of_present_day()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4418755200,
-              "status": "passed"
-            },
-            "line": 177,
-            "name": "User clicks on exp csv file",
-            "match": {
-              "location": "signupdefination.user_clicks_on_exp_csv_file()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 121900,
-              "status": "passed"
-            },
-            "line": 178,
-            "name": "User is able to download exp file in csv format",
-            "match": {
-              "location": "signupdefination.user_is_able_to_download_exp_file_in_csv_format()"
-            },
-            "keyword": "Then "
+            "line": 136,
+            "name": "@adm"
           }
         ]
       }

@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/java/Feature",
 		glue = {"StepDefination", "Hooks"},
-		//tags = {@tag},
+		tags = {"@adm"},
 		//dryRun= true,
 		//monochrome = true,
 		
