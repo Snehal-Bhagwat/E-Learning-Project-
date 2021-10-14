@@ -1092,7 +1092,7 @@ public class signupdefination {
 	    	System.out.println("User is able to click on notebook icon");
 	    }
 	    catch(Exception e){
-	    	System.out.println("User is not able to click on the notebook icon");
+	    	System.out.println("User is not able to click on the notebook icon"+e);
 	    	Assert.fail();
 	    }
 	}
@@ -1110,7 +1110,7 @@ public class signupdefination {
 	    	System.out.println("User is able to click on add new note in my personel book");
 	    }
 	    catch(Exception e){
-	    	System.out.println("User is not able to click on add new note in my personel book");
+	    	System.out.println("User is not able to click on add new note in my personel book"+e);
 	    	Assert.fail();
 	    }
 		
@@ -1130,7 +1130,7 @@ public class signupdefination {
 		System.out.println("User enters text in the note title");
 	   }
 	   catch(Exception e){
-		   System.out.println("User is not able to enter text in note title");
+		   System.out.println("User is not able to enter text in note title"+e);
 		   Assert.fail();
 	   }
 	 }
@@ -1146,13 +1146,21 @@ public class signupdefination {
 	public void user_enters_in_the_note_details(String text4)  {
 		try{
 			Thread.sleep(5000);
-			driver.switchTo().frame(0);
-			driver.findElement(By.xpath("//body/p")).sendKeys(text4);
-			System.out.println("User enters text in the note detail");
+			WebElement iframe = driver.findElement(By.tagName("iframe"));
+			   driver.switchTo().frame(iframe);
+			   WebElement editable = driver.switchTo().activeElement();
+			   editable.sendKeys("fdjgbrfhghojojyiojt59");
+			   driver.switchTo().defaultContent();
+			//driver.switchTo().frame(0);
+			//driver.findElement(By.xpath("//body/p")).sendKeys(text4);
+			//System.out.println("User enters text in the note detail");
 		   }
 		   catch(Exception e){
 			   System.out.println("User is not able to enter text in note detail"+e);
 			   Assert.fail();
+			   
+			   
+			   
 		   }
 		
 		
@@ -1172,7 +1180,7 @@ public class signupdefination {
 	    	System.out.println("User is able to click on create button");
 	    }
 	    catch(Exception e){
-	    	System.out.println("User is not able to click on create button");
+	    	System.out.println("User is not able to click on create button"+e);
 	    	Assert.fail();
 	    }
 		
@@ -1193,7 +1201,7 @@ public class signupdefination {
 	    	System.out.println("User is able to click on sort by date button");
 	    }
 	    catch(Exception e){
-	    	System.out.println("User is not able to click on sort by date button");
+	    	System.out.println("User is not able to click on sort by date button"+e);
 	    	Assert.fail();
 	    }
 	}
@@ -1211,7 +1219,7 @@ public class signupdefination {
 	    	System.out.println("User is able to click on sort by date last modified button");
 	    }
 	    catch(Exception e){
-	    	System.out.println("User is not able to click on sort by last modified button");
+	    	System.out.println("User is not able to click on sort by last modified button"+e);
 	    	Assert.fail();
 	    }
 	}
@@ -1230,7 +1238,7 @@ public class signupdefination {
 	    	System.out.println("User is able to click on sort by title button");
 	    }
 	    catch(Exception e){
-	    	System.out.println("User is not able to click on sort by title button");
+	    	System.out.println("User is not able to click on sort by title button"+e);
 	    	Assert.fail();
 	    }
 	}
@@ -1244,11 +1252,11 @@ public class signupdefination {
 	public void user_clicks_on_edit_button_to_edit_note()  {
 	    try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[3]/div[1]/h3/div/a[1]")).click();
+	    	driver.findElement(By.xpath("/html/body/main/section/div/div[7]/div[1]/h3/div/a[1]")).click();
 	    	System.out.println("User is able to click on edit button to edit the notes");
 	    }
 	    catch(Exception e){
-	    	System.out.println("User is not able to click on edit button to edit the notes");
+	    	System.out.println("User is not able to click on edit button to edit the notes"+e);
 	    	Assert.fail();
 	    }
 	}
@@ -1259,27 +1267,20 @@ public class signupdefination {
 
 	}
 
-	@When("^User clicks in note details$")
-	public void user_clicks_in_note_details()  {
-		try{
-			Thread.sleep(3000);
-			driver.switchTo().frame(0);
-			driver.findElement(By.xpath("//body/p")).click();
-			System.out.println("User is able to click in note detials");
-		   }
-		   catch(Exception e){
-			   System.out.println("User is not able to click in note detials");
-			   Assert.fail();
-		   }
-	}
+
 
 	@Then("^User enters \"([^\"]*)\" in note detail$")
 	public void user_enters_in_note_detail(String text5)  {
 		try{
-			Thread.sleep(3000);
-			driver.switchTo().frame(0);
-			driver.findElement(By.xpath("//body/p")).sendKeys(text5);
-			System.out.println("User is able to enter text in note details");
+			Thread.sleep(5000);
+			WebElement iframe = driver.findElement(By.tagName("iframe"));
+			   driver.switchTo().frame(iframe);
+			   WebElement editable = driver.switchTo().activeElement();
+			   editable.sendKeys("!!!!!!!  hey there  !!!!!!!");
+			   driver.switchTo().defaultContent();
+			//driver.switchTo().frame(0);
+			//driver.findElement(By.xpath("//body/p")).sendKeys(text5);
+			//System.out.println("User is able to enter text in note details");
 		   }
 		   catch(Exception e){
 			   System.out.println("User is not able to enter text in note details");
@@ -1316,7 +1317,7 @@ public class signupdefination {
 			   
 		   }
 		   catch(Exception e){
-			   System.out.println("User is not able to click on delete note");
+			   System.out.println("User is not able to click on delete note"+e);
 			   Assert.fail();
 		   }
 	}
@@ -1349,7 +1350,7 @@ public class signupdefination {
 			   
 		   }
 		   catch(Exception e){
-			   System.out.println("User is not able to click on selinium project icon");
+			   System.out.println("User is not able to click on selinium project icon"+e);
 			   Assert.fail();
 		   }
 	}
@@ -1368,7 +1369,7 @@ public class signupdefination {
 			   
 		   }
 		   catch(Exception e){
-			   System.out.println("User is not able to click on Selenium task");
+			   System.out.println("User is not able to click on Selenium task"+e);
 			   Assert.fail();
 		   }
 	}
@@ -1391,7 +1392,7 @@ public class signupdefination {
 		   System.out.println("User is able to click on exp.csv");
 	   }
 	   catch(Exception e){
-		   System.out.println("User is not able to click on exp.csv");
+		   System.out.println("User is not able to click on exp.csv"+e);
 	   }
 	}
 
