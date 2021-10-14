@@ -10,7 +10,7 @@ Feature: Automation Testing of Elearning Website
     And User clicks on 123testing
     Then User can see various icons
 
-	@i1
+	#@i1
   Scenario Outline: Automate the Groups icon
     Given User can see various icons on my courses option
     When User clicks on Groups icon
@@ -28,7 +28,7 @@ Feature: Automation Testing of Elearning Website
       | text6   |
       | rockers |
 	
-	@i2
+	#@i2
   Scenario Outline: Automate the Chat icon
     Given User can see various icons1
     When User clicks on chat icon
@@ -42,7 +42,7 @@ Feature: Automation Testing of Elearning Website
       | text     | special_symbols |
       | Hi There | @#$%^&*!?<>!+=  |
 
-	@i3
+	#@i3
   Scenario: Automate the Assignment icon
     Given User can see various icons2
     When User clicks on assignments icon
@@ -64,7 +64,7 @@ Feature: Automation Testing of Elearning Website
     When User clicks on save button to save uploaded solution
     Then User is able to save and download the file
 
-	@i4
+	#@i4
   Scenario: Automate the survey icon
     Given User can see various icons5
     When User clicks on the survey icon
@@ -72,7 +72,7 @@ Feature: Automation Testing of Elearning Website
     Then User is able to see survey name on survey page
     Then User is able to see anonymous in survey page
 
-	@i5
+	#@i5
   Scenario Outline: Automate the Wiki icon
     Given User can see various icons3
     When User cicks on Wiki icon
@@ -105,7 +105,7 @@ Feature: Automation Testing of Elearning Website
       | text1    |
       | Selenium |
 
-	@i6
+	#@i6
   Scenario: Automate the Assessments icon
     Given User can see various icons4
     When User clicks on assessments icon
@@ -125,7 +125,7 @@ Feature: Automation Testing of Elearning Website
     When User clicks on download report in pdf button
     Then User is able to download pdf
 
-	@i7
+	#@i7
   Scenario: Automate the Glossary icon
     Given User can see various icon6
     When User clicks on the glossary icon
@@ -140,7 +140,7 @@ Feature: Automation Testing of Elearning Website
     When User clicks on the list view button
     Then User is able to goto list page
 
-	@i8
+	#@i8
   Scenario Outline: Automate the Notebook icon
     Given User can see various icon7
     When User clicks on the Notebook icon
@@ -172,7 +172,7 @@ Feature: Automation Testing of Elearning Website
       | text3 | text4                 | text5     |
       | admin | fdjgbrfhghojojyiojt59 | Hey there |
 
-	@i9
+	#@i9
   Scenario: Automate Selinium Project
     Given User can see various icons8
     When User clicks on selinium project
