@@ -7,99 +7,174 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 13,
-      "value": "#@i1"
-    }
-  ],
-  "line": 14,
-  "name": "Automate the Groups icon",
+  "line": 76,
+  "name": "Automate the Wiki icon",
   "description": "",
-  "id": "automation-testing-of-elearning-website;automate-the-groups-icon",
+  "id": "automation-testing-of-elearning-website;automate-the-wiki-icon",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 75,
+      "name": "@i5"
+    }
+  ]
 });
 formatter.step({
-  "line": 15,
-  "name": "User can see various icons on my courses option",
+  "line": 77,
+  "name": "User can see various icons3",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 16,
-  "name": "User clicks on Groups icon",
+  "line": 78,
+  "name": "User cicks on Wiki icon",
   "keyword": "When "
 });
 formatter.step({
-  "line": 17,
-  "name": "User is able to navigate to Groups page",
+  "line": 79,
+  "name": "User is able to go on home page of wiki",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 18,
-  "name": "User clicks on register button",
+  "line": 80,
+  "name": "User clicks on Search button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
-  "name": "accept the pop up",
+  "line": 81,
+  "name": "User is able click on search button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 20,
-  "name": "User can see group added message",
+  "line": 82,
+  "name": "User is able to go on search page where User can enter fields",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 21,
-  "name": "user clicks on unregister button",
+  "line": 83,
+  "name": "user enter \"\u003ctext1\u003e\" in the search term field",
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
-  "name": "accepts the pop up",
+  "line": 84,
+  "name": "User is able to enter text in search term field",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 23,
-  "name": "User can see ungroup message",
+  "line": 85,
+  "name": "User can see result of entered text",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 24,
-  "name": "User clicks on One of the groups",
+  "line": 86,
+  "name": "user check the search also in content button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 25,
-  "name": "User is able to see information of that group",
+  "line": 87,
+  "name": "User is able to check the search also in content",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 88,
+  "name": "user check the Also search in older versions of each page button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 89,
+  "name": "User is able to check Also search in older versions of each page button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 90,
+  "name": "User clicks on search button after checks button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 91,
+  "name": "User is able to search the text on clicking search button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 92,
+  "name": "User clicks on statistics button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 93,
+  "name": "user checks all links are working or not",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 94,
+  "name": "User is able to click on all the links",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 95,
+  "name": "User clicks on all pages button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 96,
+  "name": "User is able to click on the all pages button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 97,
+  "name": "User is able to see all pages",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 98,
+  "name": "user clicks on latest changes button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 99,
+  "name": "User is able to click on latest changes button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 100,
+  "name": "user is able to see changes made last time",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 101,
+  "name": "User clicks on notify me of changes button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 102,
+  "name": "User is able to click on notify me of changes button",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 27,
+  "line": 104,
   "name": "",
   "description": "",
-  "id": "automation-testing-of-elearning-website;automate-the-groups-icon;",
+  "id": "automation-testing-of-elearning-website;automate-the-wiki-icon;",
   "rows": [
     {
       "cells": [
-        "text6"
+        "text1"
       ],
-      "line": 28,
-      "id": "automation-testing-of-elearning-website;automate-the-groups-icon;;1"
+      "line": 105,
+      "id": "automation-testing-of-elearning-website;automate-the-wiki-icon;;1"
     },
     {
       "cells": [
-        "rockers"
+        "Selenium"
       ],
-      "line": 29,
-      "id": "automation-testing-of-elearning-website;automate-the-groups-icon;;2"
+      "line": 106,
+      "id": "automation-testing-of-elearning-website;automate-the-wiki-icon;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5982736200,
+  "duration": 3936467500,
   "status": "passed"
 });
 formatter.background({
@@ -153,327 +228,288 @@ formatter.match({
   "location": "signupdefination.user_is_on_Elearning_platform()"
 });
 formatter.result({
-  "duration": 7527774600,
+  "duration": 6284319400,
   "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "duration": 1395734400,
+  "duration": 1362090100,
   "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 7837035600,
+  "duration": 7019724300,
   "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
 });
 formatter.result({
-  "duration": 100000,
+  "duration": 74800,
   "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
 });
 formatter.result({
-  "duration": 2020523300,
+  "duration": 2019467300,
   "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
 });
 formatter.result({
-  "duration": 110100,
+  "duration": 161100,
   "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_123testing()"
 });
 formatter.result({
-  "duration": 6314573800,
+  "duration": 5380055300,
   "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_various_icons()"
 });
 formatter.result({
-  "duration": 156900,
+  "duration": 104800,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 29,
-  "name": "Automate the Groups icon",
+  "line": 106,
+  "name": "Automate the Wiki icon",
   "description": "",
-  "id": "automation-testing-of-elearning-website;automate-the-groups-icon;;2",
+  "id": "automation-testing-of-elearning-website;automate-the-wiki-icon;;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 75,
+      "name": "@i5"
+    }
+  ]
 });
 formatter.step({
-  "line": 15,
-  "name": "User can see various icons on my courses option",
+  "line": 77,
+  "name": "User can see various icons3",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 16,
-  "name": "User clicks on Groups icon",
+  "line": 78,
+  "name": "User cicks on Wiki icon",
   "keyword": "When "
 });
 formatter.step({
-  "line": 17,
-  "name": "User is able to navigate to Groups page",
+  "line": 79,
+  "name": "User is able to go on home page of wiki",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 18,
-  "name": "User clicks on register button",
+  "line": 80,
+  "name": "User clicks on Search button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
-  "name": "accept the pop up",
+  "line": 81,
+  "name": "User is able click on search button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 20,
-  "name": "User can see group added message",
+  "line": 82,
+  "name": "User is able to go on search page where User can enter fields",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 21,
-  "name": "user clicks on unregister button",
+  "line": 83,
+  "name": "user enter \"Selenium\" in the search term field",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
-  "name": "accepts the pop up",
+  "line": 84,
+  "name": "User is able to enter text in search term field",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 23,
-  "name": "User can see ungroup message",
+  "line": 85,
+  "name": "User can see result of entered text",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 24,
-  "name": "User clicks on One of the groups",
+  "line": 86,
+  "name": "user check the search also in content button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 25,
-  "name": "User is able to see information of that group",
+  "line": 87,
+  "name": "User is able to check the search also in content",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 88,
+  "name": "user check the Also search in older versions of each page button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 89,
+  "name": "User is able to check Also search in older versions of each page button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 90,
+  "name": "User clicks on search button after checks button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 91,
+  "name": "User is able to search the text on clicking search button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 92,
+  "name": "User clicks on statistics button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 93,
+  "name": "user checks all links are working or not",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 94,
+  "name": "User is able to click on all the links",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 95,
+  "name": "User clicks on all pages button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 96,
+  "name": "User is able to click on the all pages button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 97,
+  "name": "User is able to see all pages",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 98,
+  "name": "user clicks on latest changes button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 99,
+  "name": "User is able to click on latest changes button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 100,
+  "name": "user is able to see changes made last time",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 101,
+  "name": "User clicks on notify me of changes button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 102,
+  "name": "User is able to click on notify me of changes button",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "signupdefination.user_can_see_various_icons_on_my_courses_option()"
+  "location": "signupdefination.user_can_see_various_icons3()"
 });
 formatter.result({
-  "duration": 167100,
+  "duration": 81500,
   "status": "passed"
 });
 formatter.match({
-  "location": "signupdefination.user_clicks_on_Groups_icon()"
+  "location": "signupdefination.user_cicks_on_Wiki_icon()"
 });
 formatter.result({
-  "duration": 5393924200,
+  "duration": 6404037800,
   "status": "passed"
 });
 formatter.match({
-  "location": "signupdefination.user_is_able_to_navigate_to_Groups_page()"
+  "location": "signupdefination.user_is_able_to_go_on_home_page_of_wiki()"
 });
 formatter.result({
-  "duration": 72400,
+  "duration": 93200,
   "status": "passed"
 });
 formatter.match({
-  "location": "signupdefination.user_clicks_on_register_button()"
+  "location": "signupdefination.user_clicks_on_Search_button()"
 });
 formatter.result({
-  "duration": 3191807100,
+  "duration": 3933026600,
   "status": "passed"
 });
 formatter.match({
-  "location": "signupdefination.accept_the_pop_up()"
+  "location": "signupdefination.user_is_able_click_on_search_button()"
 });
 formatter.result({
-  "duration": 28135200,
+  "duration": 84100,
   "status": "passed"
 });
 formatter.match({
-  "location": "signupdefination.user_can_see_group_added_message()"
+  "location": "signupdefination.user_is_able_to_go_on_search_page_where_User_can_enter_fields()"
 });
 formatter.result({
-  "duration": 3259091000,
+  "duration": 93600,
   "status": "passed"
 });
 formatter.match({
-  "location": "signupdefination.user_clicks_on_unregister_button()"
-});
-formatter.result({
-  "duration": 3127814600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "signupdefination.accepts_the_pop_up()"
-});
-formatter.result({
-  "duration": 28382000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "signupdefination.user_can_see_ungroup_message()"
-});
-formatter.result({
-  "duration": 3092833200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "signupdefination.user_clicks_on_One_of_the_groups()"
-});
-formatter.result({
-  "duration": 9833288300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "signupdefination.user_is_able_to_see_information_of_that_group()"
-});
-formatter.result({
-  "duration": 98900,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1040010000,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "comments": [
+  "arguments": [
     {
-      "line": 31,
-      "value": "#@i2"
+      "val": "Selenium",
+      "offset": 12
     }
   ],
-  "line": 32,
-  "name": "Automate the Chat icon",
-  "description": "",
-  "id": "automation-testing-of-elearning-website;automate-the-chat-icon",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "location": "signupdefination.user_enter_in_the_search_term_field(String)"
 });
-formatter.step({
-  "line": 33,
-  "name": "User can see various icons1",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 34,
-  "name": "User clicks on chat icon",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 35,
-  "name": "User can able to goto message screen",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 36,
-  "name": "User enter \"\u003ctext\u003e\", \"\u003cspecial_symbols\u003e\" in textarea",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 37,
-  "name": "User is able to enter text and special symbols in the write field",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 38,
-  "name": "User clicks send message on entering text and special symbols",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 39,
-  "name": "User is able to send message",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 41,
-  "name": "",
-  "description": "",
-  "id": "automation-testing-of-elearning-website;automate-the-chat-icon;",
-  "rows": [
-    {
-      "cells": [
-        "text",
-        "special_symbols"
-      ],
-      "line": 42,
-      "id": "automation-testing-of-elearning-website;automate-the-chat-icon;;1"
-    },
-    {
-      "cells": [
-        "Hi There",
-        "@#$%^\u0026*!?\u003c\u003e!+\u003d"
-      ],
-      "line": 43,
-      "id": "automation-testing-of-elearning-website;automate-the-chat-icon;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 1884536500,
+formatter.result({
+  "duration": 1102728600,
   "status": "passed"
 });
-formatter.background({
-  "line": 3,
-  "name": "Automated login",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
+formatter.match({
+  "location": "signupdefination.user_is_able_to_enter_text_in_search_term_field()"
 });
-formatter.step({
-  "line": 4,
-  "name": "User is on Elearning platform",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "user enters username and password",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "User clicks on the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "User gets redirected to the dashboard",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "User clicks on the My Courses on the menu bar",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "User gets redirected to the My Courses page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "User clicks on 123testing",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "User can see various icons",
-  "keyword": "Then "
+formatter.result({
+  "duration": 76500,
+  "status": "passed"
 });
 formatter.match({
-  "location": "signupdefination.user_is_on_Elearning_platform()"
+  "location": "signupdefination.user_can_see_result_of_entered_text()"
+});
+formatter.result({
+  "duration": 65500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "signupdefination.user_check_the_search_also_in_content_button()"
+});
+formatter.result({
+  "duration": 3142170100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "signupdefination.user_is_able_to_check_the_search_also_in_content()"
+});
+formatter.result({
+  "duration": 102400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "signupdefination.user_check_the_Also_search_in_older_versions_of_each_page_button()"
 });
