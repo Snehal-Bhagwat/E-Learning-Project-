@@ -27,7 +27,7 @@ import cucumber.api.junit.Cucumber;
 	
 		
 		plugin= {"pretty", "html:target/cucumber-pretty", "junit:target/report.xml", "json:target/cucumber.json"}
-		)
+		)	
 
 public class testrunner {
 

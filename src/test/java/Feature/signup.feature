@@ -75,7 +75,7 @@ Feature: Automation Testing of Elearning Website
 	#@i5
   Scenario Outline: Automate the Wiki icon
     Given User can see various icons3
-    When User cicks on Wiki icon
+    When User clicks on Wiki icon
     Then User is able to go on home page of wiki
     When User clicks on Search button
     Then User is able click on search button

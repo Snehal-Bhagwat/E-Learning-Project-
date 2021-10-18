@@ -82,7 +82,7 @@ public class signupdefination {
 	public void user_clicks_on_123testing()  {
 		try{
 			Thread.sleep(2000);
-			driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div[1]/div/section/div/div/div/div/div[2]/h4/a[1]")).click();
+			driver.findElement(By.xpath("//*[@id='page']/div/div/div/div/div[2]/h4/a")).click();
 			System.out.println("User is clicking on one of the course");
 		}
 		catch(Exception e){
@@ -106,7 +106,7 @@ public class signupdefination {
 	public void user_clicks_on_Groups_icon()  {
 		try{
 			Thread.sleep(3000);
-		   driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div[11]/div/div[1]/a")).click();
+		   driver.findElement(By.xpath("//*[@id='tooldesc_1752']")).click();
 			  System.out.println("User is able to click on the group icon");
 	   }
 	   catch(Exception e)
@@ -147,7 +147,7 @@ public class signupdefination {
 	public void user_can_see_group_added_message()  {
 		try{
 			Thread.sleep(3000);
-		   driver.findElement(By.xpath("/html/body/main/section/div/div[2]")).isDisplayed();
+		   driver.findElement(By.xpath("//*[@id='cm-content']/div/div[2]")).isDisplayed();
 			  System.out.println("User is able to see group added message");
 	   }
 	   catch(Exception e)
@@ -185,7 +185,7 @@ public class signupdefination {
 	public void user_can_see_ungroup_message()  {
 		try{
 			Thread.sleep(3000);
-		   driver.findElement(By.xpath("/html/body/main/section/div/div[2]")).isDisplayed();
+		   driver.findElement(By.xpath("//*[@id='cm-content']/div/div[2]")).isDisplayed();
 			  System.out.println("User is able to see group removed message");
 	   }
 	   catch(Exception e)
@@ -228,7 +228,7 @@ public class signupdefination {
 	public void user_clicks_on_chat_icon()  {
 		try{
 			Thread.sleep(2000);
-			driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div[12]/div/div[1]/a")).click();
+			driver.findElement(By.xpath("//*[@id='tooldesc_1753']")).click();
 			  System.out.println("User is able to click on the chat icon");
 	   }
 	   catch(Exception e)
@@ -296,7 +296,7 @@ public class signupdefination {
 	public void user_clicks_send_message_on_entering_text_and_special_symbols()  {
 		try{
 			Thread.sleep(3000);
-			driver.findElement(By.xpath("/html/body/section/div/div/div[2]/div[2]/div/div/div/div/div[1]/div/div[2]/button")).click();
+			driver.findElement(By.xpath("//*[@id='chat-send-message']")).click();
 			  System.out.println("User is able to click on the send message button");
 	   }
 	   catch(Exception e)
@@ -323,7 +323,7 @@ public class signupdefination {
 	public void user_clicks_on_assignments_icon() throws InterruptedException  {
 	    try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div[13]/div/div[1]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='tooldesc_1754']")).click();
 	    	System.out.println("User is able to click on assignment icon");
 	    }
 	    catch(Exception e){
@@ -341,7 +341,7 @@ public class signupdefination {
 	public void user_clicks_on_ani_assignment()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/div/div[3]/div[3]/div/table/tbody/tr[2]/td[2]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='257']/td[2]/a")).click();
 	    	System.out.println("User is able to click on ani assignment");
 	    }
 	    catch(Exception e){
@@ -359,7 +359,7 @@ public class signupdefination {
 	public void user_clicks_on_upload_my_assignment()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div[1]/div/div[2]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='toolbar-work']/div/div[2]/a")).click();
 	    	System.out.println("User is able to click on upload my assignment");
 	    }
 	    catch(Exception e){
@@ -379,7 +379,7 @@ public class signupdefination {
 	public void user_click_on_Drag_and_drop_file()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/div[1]/form/fieldset/div[2]/div")).click();
+	    	driver.findElement(By.xpath("//*[@id='dropzone']/div")).click();
 	    	System.out.println("User is able to click on Drag and drop file");
 	    }
 	    catch(Exception e){
@@ -399,7 +399,7 @@ public class signupdefination {
 	public void user_clicks_on_upload_simple_button()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/ul/li[2]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='tabs2']")).click();
 	    	System.out.println("User is able to click on upload simple button");
 	    }
 	    catch(Exception e){
@@ -418,7 +418,7 @@ public class signupdefination {
 	public void user_clicks_on_choose_file()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/div[2]/form/fieldset/div[3]/div[1]/input")).click();
+	    	driver.findElement(By.xpath("//*[@id='form-work_file']")).click();
 	    	System.out.println("User is able to click on choose file button");
 	    }
 	    catch(Exception e){
@@ -462,7 +462,7 @@ public class signupdefination {
 	public void user_clicks_on_Ani_link_to_go_back()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/ul/li[3]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='cm-content']/div/ul/li[3]/a")).click();
 	    	System.out.println("User is able to click on Ani link to go back");
 	    }
 	    catch(Exception e){
@@ -475,7 +475,7 @@ public class signupdefination {
 	public void user_clicks_on_save_button_to_save_uploaded_solution()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div[3]/div/div/div[3]/div[3]/div/table/tbody/tr[2]/td[6]/div/a[1]")).click();
+	    	driver.findElement(By.xpath("//*[@id='265']/td[6]/div/a[1]")).click();
 	    	System.out.println("User is able to click on save button to save uploaded solution");
 	    }
 	    catch(Exception e){
@@ -508,7 +508,7 @@ public class signupdefination {
 	public void user_clicks_on_the_survey_icon()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div[14]/div/div[1]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='tooldesc_1755']")).click();
 	    	System.out.println("User is able to click on survey icon");
 	    }
 	    catch(Exception e){
@@ -527,7 +527,7 @@ public class signupdefination {
 	public void user_is_able_to_see_survey_name_on_survey_page()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/table/thead/tr/th[1]")).isDisplayed();
+	    	driver.findElement(By.xpath("//*[@id='list-survey']/thead/tr/th[1]")).isDisplayed();
 	    	System.out.println("User is able to see survey name on survey page");
 	    }
 	    catch(Exception e){
@@ -540,7 +540,7 @@ public class signupdefination {
 	public void user_is_able_to_see_anonymous_in_survey_page()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/table/thead/tr/th[2]")).isDisplayed();
+	    	driver.findElement(By.xpath("//*[@id='list-survey']/thead/tr/th[2]")).isDisplayed();
 	    	System.out.println("User is able to see anonymous on survey page");
 	    }
 	    catch(Exception e){
@@ -557,11 +557,11 @@ public class signupdefination {
 		System.out.println("User is able to see various icons3");
 	}
 
-	@When("^User cicks on Wiki icon$")
-	public void user_cicks_on_Wiki_icon()  {
+	@When("^User clicks on Wiki icon$")
+	public void user_clicks_on_Wiki_icon()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div[15]/div/div[1]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='tooldesc_1756']")).click();
 	    	System.out.println("User is able to click on wiki icon");
 	    }
 	    catch(Exception e){
@@ -581,7 +581,7 @@ public class signupdefination {
 	public void user_clicks_on_Search_button()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/div/a[2]")).click();
+	    	driver.findElement(By.xpath("//*[@id='toolbar-wiki']/div/div/a[2]")).click();
 	    }
 	    catch(Exception e){
 	    	System.out.println("User is not able to click on search button"+e);
@@ -606,7 +606,7 @@ public class signupdefination {
 	public void user_enter_in_the_search_term_field(String text1)  {
 		try{
 			Thread.sleep(1000);
-			driver.findElement(By.xpath("/html/body/main/section/div/form/fieldset/div[1]/div[1]/input")).sendKeys(text1);
+			driver.findElement(By.xpath("//*[@id='wiki_search_search_term']")).sendKeys(text1);
 		}
 		catch(Exception e){
 			System.out.println("Not able to enter text in text term filed" +e);
@@ -685,7 +685,7 @@ public class signupdefination {
 	public void user_clicks_on_statistics_button()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/div/a[3]")).click();
+	    	driver.findElement(By.xpath("//*[@id='toolbar-wiki']/div/div/a[3]")).click();
 	    	System.out.println("User is able to click on the statistics button");
 		}
 	    catch(Exception e){
@@ -700,13 +700,8 @@ public class signupdefination {
 	public void user_checks_all_links_are_working_or_not()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/table/tbody/tr/td[1]/ul/li[1]/a")).click();
-	    	//driver.findElement(By.xpath("/html/body/main/section/div/table/tbody/tr/td[1]/ul/li[2]/a")).click();
-	    	//driver.findElement(By.xpath("/html/body/main/section/div/table/tbody/tr/td[1]/ul/li[3]/a")).click();
-	    	//driver.findElement(By.xpath("/html/body/main/section/div/table/tbody/tr/td[2]/ul/li[1]/a")).click();
-	    	//driver.findElement(By.xpath("/html/body/main/section/div/table/tbody/tr/td[2]/ul/li[2]/a")).click();
-	    	//driver.findElement(By.xpath("/html/body/main/section/div/table/tbody/tr/td[2]/ul/li[3]/a")).click();
-	    
+	    	driver.findElement(By.xpath("//*[@id='cm-content']/div/table/tbody/tr/td[1]/ul/li[1]/a")).click();
+	    	
 		}
 	    catch(Exception e){
 	    	System.out.println("User is not able to click on the links"+e);
@@ -723,7 +718,7 @@ public class signupdefination {
 	public void user_clicks_on_all_pages_button()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/div/a[4]")).click();
+	    	driver.findElement(By.xpath("//*[@id='toolbar-wiki']/div/div/a[4]")).click();
 		}
 	    catch(Exception e){
 	    	System.out.println("User is not able to click on all pages button"+e);
@@ -747,7 +742,7 @@ public class signupdefination {
 	public void user_clicks_on_latest_changes_button()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/div/a[5]")).click();
+	    	driver.findElement(By.xpath("//*[@id='toolbar-wiki']/div/div/a[5]")).click();
 		}
 	    catch(Exception e){
 	    	System.out.println("User is not able to click on latest changes button"+e);
@@ -771,7 +766,7 @@ public class signupdefination {
 	public void user_clicks_on_notify_me_of_changes_button()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[3]/span/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='cm-content']/div/div[3]/span/a")).click();
 		}
 	    catch(Exception e){
 	    	System.out.println("User is not able to click on notify me of changes button"+e);
@@ -794,7 +789,7 @@ public class signupdefination {
 	public void user_clicks_on_assessments_icon()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div[16]/div/div[1]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='tooldesc_1757']")).click();
 		}
 	    catch(Exception e){
 	    	System.out.println("User is not able to click on assessments icon"+e);
@@ -811,7 +806,7 @@ public class signupdefination {
 	public void user_clicks_on_list_view_button()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div[3]/table/tbody/tr[2]/td[6]/a[2]")).click();
+	    	driver.findElement(By.xpath("//*[@id='gradebook_list']/tbody/tr[2]/td[6]/a[2]")).click();
 		}
 	    catch(Exception e){
 	    	System.out.println("User is not able to click on list view button"+e);
@@ -830,7 +825,7 @@ public class signupdefination {
 	public void user_clicks_on_close_button()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/button")).click();
+	    	driver.findElement(By.xpath("//*[@id='global-modal']/div/div/div[1]/button")).click();
 	    	System.out.println("User is able to click on close button");
 		}
 	    catch(Exception e){
@@ -848,7 +843,7 @@ public class signupdefination {
 	public void user_clicks_on_show_button()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div[3]/table/tbody/tr[2]/td[6]/a[1]")).click();
+	    	driver.findElement(By.xpath("//*[@id='gradebook_list']/tbody/tr[2]/td[6]/a[1]")).click();
 	    	System.out.println("User is able to click on show button");
 		}
 	    catch(Exception e){
@@ -868,7 +863,7 @@ public class signupdefination {
 	public void user_clicks_on_mtest_link()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div[3]/table/tbody/tr[3]/td[2]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='gradebook_list']/tbody/tr[3]/td[2]/a")).click();
 	    	System.out.println("User is able to click on mtest link");
 		}
 	    catch(Exception e){
@@ -888,7 +883,7 @@ public class signupdefination {
 	public void user_clicks_on_start_test()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div[2]/div/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='cm-content']/div/div[2]/div[2]/div/a")).click();
 	    	System.out.println("User is able to click on start test link");
 		}
 	    catch(Exception e){
@@ -936,7 +931,7 @@ public class signupdefination {
 	public void user_clicks_on_download_report_in_pdf_button()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div[1]/div/div/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='gradebook-student-actions']/div/div/a")).click();
 	    	System.out.println("User is able to click on download report in pdf button");
 		}
 	    catch(Exception e){
@@ -961,7 +956,7 @@ public class signupdefination {
 	public void user_clicks_on_the_glossary_icon()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div[17]/div/div[1]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='tooldesc_1758']")).click();
 	    	System.out.println("User is able to click on glossary icon");
 		}
 	    catch(Exception e){
@@ -979,7 +974,7 @@ public class signupdefination {
 	public void user_clicks_on_the_export_button()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/div[1]/a[1]")).click();
+	    	driver.findElement(By.xpath("//*[@id='export_opener']")).click();
 	    	System.out.println("User is able to click on export button");
 		}
 	    catch(Exception e){
@@ -999,7 +994,7 @@ public class signupdefination {
 	public void user_selects_Export_to_pdf_button()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/div[4]/div[2]/form/fieldset/div[3]/div[1]/div/label/input")).click();
+	    	driver.findElement(By.xpath("//*[@id='export_format_pdf_label']")).click();
 	    	System.out.println("User is able to select export to pdf");
 		}
 	    catch(Exception e){
@@ -1027,7 +1022,7 @@ public class signupdefination {
 	public void user_is_on_some_page()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div")).isDisplayed();
+	    	driver.findElement(By.xpath("//*[@id='main_content']/div/div")).isDisplayed();
 	    	System.out.println("User is on some page");
 		}
 	    catch(Exception e){
@@ -1040,7 +1035,7 @@ public class signupdefination {
 	public void user_clicks_on_glossary_link_to_go_back()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/ul/li[2]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='cm-content']/div/ul/li[2]/a")).click();
 	    	System.out.println("User is able to clicks on glossary link to go back");
 		}
 	    catch(Exception e){
@@ -1060,7 +1055,7 @@ public class signupdefination {
 	public void user_clicks_on_the_list_view_button()   {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/div[1]/a[2]")).click();
+	    	driver.findElement(By.xpath("//*[@id='toolbar-document']/div/div[1]/a[2]")).click();
 	    	System.out.println("User is able to clicks on list view button");
 		}
 	    catch(Exception e){
@@ -1088,7 +1083,7 @@ public class signupdefination {
 	public void user_clicks_on_the_Notebook_icon()  {
 	    try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div[18]/div/div[1]/a")).click();
+	    	driver.findElement(By.xpath("//*[@id='tooldesc_1759']")).click();
 	    	System.out.println("User is able to click on notebook icon");
 	    }
 	    catch(Exception e){
@@ -1106,7 +1101,7 @@ public class signupdefination {
 	public void user_clicks_on_add_new_note_in_my_personel_notebook()  {
 	    try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[2]/a[1]")).click();
+	    	driver.findElement(By.xpath("//*[@id='cm-content']/div/div[2]/a[1]")).click();
 	    	System.out.println("User is able to click on add new note in my personel book");
 	    }
 	    catch(Exception e){
@@ -1126,7 +1121,7 @@ public class signupdefination {
 	public void user_enters_in_note_title(String text3) throws InterruptedException  {
 	   try{
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("/html/body/main/section/div/form/fieldset/div[1]/div[1]/input")).sendKeys(text3);
+		driver.findElement(By.xpath("//*[@id='note_title']")).sendKeys(text3);
 		System.out.println("User enters text in the note title");
 	   }
 	   catch(Exception e){
@@ -1149,7 +1144,7 @@ public class signupdefination {
 			WebElement iframe = driver.findElement(By.tagName("iframe"));
 			   driver.switchTo().frame(iframe);
 			   WebElement editable = driver.switchTo().activeElement();
-			   editable.sendKeys("fdjgbrfhghojojyiojt59");
+			   editable.sendKeys("fdjgbrfhghojojyiojt59fghhujsfefsdgfhfhdfh");
 			   driver.switchTo().defaultContent();
 			//driver.switchTo().frame(0);
 			//driver.findElement(By.xpath("//body/p")).sendKeys(text4);
@@ -1176,7 +1171,7 @@ public class signupdefination {
 	public void user_clicks_on_create_note_button()  {
 	    try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/form/fieldset/div[3]/div[1]/button")).click();
+	    	driver.findElement(By.xpath("//*[@id='note_SubmitNote']")).click();
 	    	System.out.println("User is able to click on create button");
 	    }
 	    catch(Exception e){
@@ -1196,8 +1191,8 @@ public class signupdefination {
 	@When("^User clicks on sort by date created$")
 	public void user_clicks_on_sort_by_date_created()  {
 	    try{
-	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[3]/a[2]")).click();
+	    	Thread.sleep(4000);
+	    	driver.findElement(By.xpath("//*[@id='cm-content']/div/div[3]/a[2]")).click();
 	    	System.out.println("User is able to click on sort by date button");
 	    }
 	    catch(Exception e){
@@ -1215,7 +1210,7 @@ public class signupdefination {
 	public void user_clicks_on_sort_by_date_last_modified()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[3]/a[3]")).click();
+	    	driver.findElement(By.xpath("//*[@id='cm-content']/div/div[3]/a[3]")).click();
 	    	System.out.println("User is able to click on sort by date last modified button");
 	    }
 	    catch(Exception e){
@@ -1234,7 +1229,7 @@ public class signupdefination {
 	public void user_clicks_on_sort_by_title()  {
 		try{
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("/html/body/main/section/div/div[3]/a[4]")).click();
+	    	driver.findElement(By.xpath("//*[@id='cm-content']/div/div[3]/a[4]")).click();
 	    	System.out.println("User is able to click on sort by title button");
 	    }
 	    catch(Exception e){
@@ -1272,7 +1267,7 @@ public class signupdefination {
 	@Then("^User enters \"([^\"]*)\" in note detail$")
 	public void user_enters_in_note_detail(String text5)  {
 		try{
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 			WebElement iframe = driver.findElement(By.tagName("iframe"));
 			   driver.switchTo().frame(iframe);
 			   WebElement editable = driver.switchTo().activeElement();
@@ -1312,7 +1307,7 @@ public class signupdefination {
 	public void user_clicks_on_delete_button()  {
 		try{
 			   Thread.sleep(3000);
-			   driver.findElement(By.xpath("/html/body/main/section/div/div[5]/div[1]/h3/div/a[2]")).click();
+			   driver.findElement(By.xpath("//*[@id='cm-content']/div/div[6]/div[1]/h3/div/a[2]")).click();
 			   System.out.println("User is able to click on delete note");
 			   
 		   }
@@ -1345,7 +1340,7 @@ public class signupdefination {
 	public void user_clicks_on_selinium_project()  {
 		try{
 			   Thread.sleep(3000);
-			   driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div[19]/div/div[1]/a")).click();
+			   driver.findElement(By.xpath("//*[@id='tooldesc_9796']")).click();
 			   System.out.println("User is able to click on selinium project icon");
 			   
 		   }
@@ -1364,7 +1359,7 @@ public class signupdefination {
 	public void user_clicks_on_Selenium_task()  {
 		try{
 			   Thread.sleep(3000);
-			   driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div[2]/article[3]/div/div/h3/a")).click();
+			   driver.findElement(By.xpath("//*[@id='post-119']/div/div/h3/a")).click();
 			   System.out.println("User is able to click on Selenium task");
 			   
 		   }
@@ -1388,7 +1383,7 @@ public class signupdefination {
 	public void user_clicks_on_exp_csv_file()  {
 	   try{
 		   Thread.sleep(3000);
-		   driver.findElement(By.xpath("/html/body/main/section/div/div[2]/div/section/div/div[2]/div/div/div[2]/article/aside/a")).click();
+		   driver.findElement(By.xpath("//*[@id='blog-header']/div[2]/article/aside/a")).click();
 		   System.out.println("User is able to click on exp.csv");
 	   }
 	   catch(Exception e){

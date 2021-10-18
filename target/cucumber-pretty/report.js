@@ -98,6 +98,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 6750470400,
+  "status": "passed"
+});
 formatter.background({
   "line": 3,
   "name": "Automated login",
@@ -149,49 +153,57 @@ formatter.match({
   "location": "signupdefination.user_is_on_Elearning_platform()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7948558400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1376565700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8056025500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1271000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2021290600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 158400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_123testing()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6455931400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_various_icons()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 68700,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 29,
@@ -260,67 +272,82 @@ formatter.match({
   "location": "signupdefination.user_can_see_various_icons_on_my_courses_option()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 179400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_Groups_icon()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4538614000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_navigate_to_Groups_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 98300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_register_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3142603000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.accept_the_pop_up()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 24601300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_group_added_message()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3152289600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_unregister_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3097312500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.accepts_the_pop_up()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 10855900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_ungroup_message()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3173475600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_One_of_the_groups()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7157115300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_information_of_that_group()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 99800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 987785900,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "comments": [
@@ -396,6 +423,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 2141412200,
+  "status": "passed"
+});
 formatter.background({
   "line": 3,
   "name": "Automated login",
@@ -447,49 +478,57 @@ formatter.match({
   "location": "signupdefination.user_is_on_Elearning_platform()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7639055600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1314747300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7940703600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 64500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2015105700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 60000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_123testing()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5356963000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_various_icons()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 48700,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 43,
@@ -542,19 +581,22 @@ formatter.match({
   "location": "signupdefination.user_can_see_various_icons1()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 78800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_chat_icon()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2290951600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_able_to_goto_message_screen()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 350200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -570,25 +612,37 @@ formatter.match({
   "location": "signupdefination.user_enter_in_textarea(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7865601800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_enter_text_and_special_symbols_in_the_write_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 119100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_send_message_on_entering_text_and_special_symbols()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3133918500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_send_message()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 286900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1092850600,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1875824500,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -641,49 +695,57 @@ formatter.match({
   "location": "signupdefination.user_is_on_Elearning_platform()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7310351700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1399903000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8614246300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 81200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2014230800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 85900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_123testing()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5947771900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_various_icons()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 43800,
+  "status": "passed"
 });
 formatter.scenario({
   "comments": [
@@ -798,73 +860,86 @@ formatter.match({
   "location": "signupdefination.user_can_see_various_icons2()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 232800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_assignments_icon()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7130658600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_assignment_given_on_selected_course()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 83100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_ani_assignment()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5140075700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_detailed_description_of_assignments()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 189700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_upload_my_assignment()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6246415600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_open_the_page_from_where_User_can_upload_assingment()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 78600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_click_on_Drag_and_drop_file()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3133619600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_be_able_to_upload_the_file()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 70900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_upload_simple_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3120383400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_page_from_where_user_should_upload_assignment_solution_file()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 86800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_choose_file()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3102027400,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat StepDefination.signupdefination.user_clicks_on_choose_file(signupdefination.java:426)\r\n\tat ✽.When User clicks on choose file(signup.feature:58)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "signupdefination.user_can_be_able_to_select_file_on_clicking_choose_file_button()"
@@ -907,6 +982,14 @@ formatter.match({
 });
 formatter.result({
   "status": "skipped"
+});
+formatter.after({
+  "duration": 1349837600,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2126256300,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -959,49 +1042,57 @@ formatter.match({
   "location": "signupdefination.user_is_on_Elearning_platform()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7448267600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1260568700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7904618100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 127900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2014153400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 73900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_123testing()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5013578400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_various_icons()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 79900,
+  "status": "passed"
 });
 formatter.scenario({
   "comments": [
@@ -1046,31 +1137,40 @@ formatter.match({
   "location": "signupdefination.user_can_see_various_icons5()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 74700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_survey_icon()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4130916300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_on_the_survey_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 94400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_survey_name_on_survey_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3090269000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_anonymous_in_survey_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3081457500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 902951200,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "comments": [
@@ -1093,7 +1193,7 @@ formatter.step({
 });
 formatter.step({
   "line": 78,
-  "name": "User cicks on Wiki icon",
+  "name": "User clicks on Wiki icon",
   "keyword": "When "
 });
 formatter.step({
@@ -1239,6 +1339,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 1734304100,
+  "status": "passed"
+});
 formatter.background({
   "line": 3,
   "name": "Automated login",
@@ -1290,49 +1394,57 @@ formatter.match({
   "location": "signupdefination.user_is_on_Elearning_platform()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7025471600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1277187500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8105672800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 47600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2022049600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 70600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_123testing()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5857305100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_various_icons()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 62200,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 106,
@@ -1349,7 +1461,7 @@ formatter.step({
 });
 formatter.step({
   "line": 78,
-  "name": "User cicks on Wiki icon",
+  "name": "User clicks on Wiki icon",
   "keyword": "When "
 });
 formatter.step({
@@ -1479,37 +1591,43 @@ formatter.match({
   "location": "signupdefination.user_can_see_various_icons3()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 105000,
+  "status": "passed"
 });
 formatter.match({
-  "location": "signupdefination.user_cicks_on_Wiki_icon()"
+  "location": "signupdefination.user_clicks_on_Wiki_icon()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6275868700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_go_on_home_page_of_wiki()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 68200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_Search_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4226340500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_click_on_search_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 86500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_go_on_search_page_where_User_can_enter_fields()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 119600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1521,121 +1639,149 @@ formatter.match({
   "location": "signupdefination.user_enter_in_the_search_term_field(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1098788300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_enter_text_in_search_term_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 69600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_result_of_entered_text()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 66700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_check_the_search_also_in_content_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3105863000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_check_the_search_also_in_content()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 85100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_check_the_Also_search_in_older_versions_of_each_page_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3215929800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_check_Also_search_in_older_versions_of_each_page_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 76500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_search_button_after_checks_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4842426500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_search_the_text_on_clicking_search_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 98300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_statistics_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4339519500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_checks_all_links_are_working_or_not()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5405299800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_click_on_all_the_links()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 109200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_all_pages_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5395411000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_click_on_the_all_pages_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 113400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_all_pages()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 79000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_latest_changes_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5548194900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_click_on_latest_changes_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 81600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_changes_made_last_time()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 52300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_notify_me_of_changes_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4634742000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_click_on_notify_me_of_changes_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 104900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 966425800,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1704687300,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -1688,49 +1834,57 @@ formatter.match({
   "location": "signupdefination.user_is_on_Elearning_platform()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7075273900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1249613900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 9283103600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 62100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2008778700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 48800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_123testing()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6106584500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_various_icons()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 45000,
+  "status": "passed"
 });
 formatter.scenario({
   "comments": [
@@ -1835,103 +1989,128 @@ formatter.match({
   "location": "signupdefination.user_can_see_various_icons4()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 100100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_assessments_icon()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5246758400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_go_on_assessments_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 57300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_list_view_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3109085200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_report_in_graph()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 69500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_close_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3092596700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.list_view_report_will_close()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 92400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_show_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3454048000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_available_tests()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 510700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_mtest_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5929151800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_on_the_start_test_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 45400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_start_test()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6290416600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_on_the_assessment_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 67300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_tests_button_again_to_go_back()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5329357600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_assessments_button_again_to_go_back()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5925528500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_download_report_in_pdf_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5493508900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_download_pdf()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 71000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 958452500,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1748662500,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -1984,49 +2163,57 @@ formatter.match({
   "location": "signupdefination.user_is_on_Elearning_platform()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7278514500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1242519300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7800567700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 53200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2015513000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 46400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_123testing()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5816312600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_various_icons()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 58700,
+  "status": "passed"
 });
 formatter.scenario({
   "comments": [
@@ -2106,73 +2293,89 @@ formatter.match({
   "location": "signupdefination.user_can_see_various_icon6()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 134200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_glossary_icon()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5669510700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_glossary_list_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 61500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_export_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3203917300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_different_format_of_radio_buttons()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 89100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_selects_Export_to_pdf_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3103056600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_download_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4810733500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_on_some_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3077009700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_glossary_link_to_go_back()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6136698300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_on_the_home_page_of_glossary()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 55300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_list_view_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5746593100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_goto_list_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 113400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 918036400,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "comments": [
@@ -2340,6 +2543,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 1827399900,
+  "status": "passed"
+});
 formatter.background({
   "line": 3,
   "name": "Automated login",
@@ -2391,49 +2598,57 @@ formatter.match({
   "location": "signupdefination.user_is_on_Elearning_platform()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6543773600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1283770400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8898243800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 37800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2019164400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 51500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_123testing()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5797320300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_various_icons()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 61700,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 173,
@@ -2581,31 +2796,36 @@ formatter.match({
   "location": "signupdefination.user_can_see_various_icon7()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 81700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_Notebook_icon()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5125209500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_go_to_notebook_home_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 86200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_add_new_note_in_my_personel_notebook()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5500783200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_create_new_note()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 46400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2617,13 +2837,15 @@ formatter.match({
   "location": "signupdefination.user_enters_in_note_title(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3128067500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_enter_text_in_note_title()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 53600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2635,73 +2857,85 @@ formatter.match({
   "location": "signupdefination.user_enters_in_the_note_details(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5322774100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_enter_details_of_notes()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 73200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_create_note_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4871039700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_create_note()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 52700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_sort_by_date_created()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5060248000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_that_notes_are_sorted_according_its_date()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 77200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_sort_by_date_last_modified()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4292721900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_that_notes_are_sorted_according_its_date_last_modified()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 61900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_sort_by_title()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4188150100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_that_notes_are_sorted_according_its_title()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 359300,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_edit_button_to_edit_note()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4992994700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_edit_the_note()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 69000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2713,37 +2947,51 @@ formatter.match({
   "location": "signupdefination.user_enters_in_note_detail(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4259588600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_edit_my_personel_note_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4775335200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_edit_the_note_on_clicking_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 105100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_delete_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3128623200,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_have_to_accept_the_pop_up()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 15363400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_previous_notes()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 93600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1038803500,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1639702300,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -2796,49 +3044,57 @@ formatter.match({
   "location": "signupdefination.user_is_on_Elearning_platform()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6721112800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1329894000,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7647339100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 61900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_the_My_Courses_on_the_menu_bar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2011681100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_gets_redirected_to_the_My_Courses_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 42800,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_123testing()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5404933900,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_can_see_various_icons()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 64900,
+  "status": "passed"
 });
 formatter.scenario({
   "comments": [
@@ -2898,48 +3154,60 @@ formatter.match({
   "location": "signupdefination.user_can_see_various_icons8()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 67600,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_selinium_project()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5059525400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_goto_selinium_project_home_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 72700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_Selenium_task()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4065854400,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_information_of_that_project()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1276100,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_see_calender_and_the_date_of_present_day()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 72500,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_clicks_on_exp_csv_file()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4399230700,
+  "status": "passed"
 });
 formatter.match({
   "location": "signupdefination.user_is_able_to_download_exp_file_in_csv_format()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 102700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1064812500,
+  "status": "passed"
 });
 });

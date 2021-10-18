@@ -11,7 +11,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 7948558400,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on Elearning platform",
@@ -22,7 +23,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1376565700,
+              "status": "passed"
             },
             "line": 5,
             "name": "user enters username and password",
@@ -33,7 +35,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8056025500,
+              "status": "passed"
             },
             "line": 6,
             "name": "User clicks on the login button",
@@ -44,7 +47,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1271000,
+              "status": "passed"
             },
             "line": 7,
             "name": "User gets redirected to the dashboard",
@@ -55,7 +59,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2021290600,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on the My Courses on the menu bar",
@@ -66,7 +71,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 158400,
+              "status": "passed"
             },
             "line": 9,
             "name": "User gets redirected to the My Courses page",
@@ -77,7 +83,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6455931400,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on 123testing",
@@ -88,7 +95,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 68700,
+              "status": "passed"
             },
             "line": 11,
             "name": "User can see various icons",
@@ -100,16 +108,39 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 6750470400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initialization()"
+            }
+          }
+        ],
         "line": 29,
         "name": "Automate the Groups icon",
         "description": "",
         "id": "automation-testing-of-elearning-website;automate-the-groups-icon;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 987785900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closedriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 179400,
+              "status": "passed"
             },
             "line": 15,
             "name": "User can see various icons on my courses option",
@@ -120,7 +151,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4538614000,
+              "status": "passed"
             },
             "line": 16,
             "name": "User clicks on Groups icon",
@@ -131,7 +163,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 98300,
+              "status": "passed"
             },
             "line": 17,
             "name": "User is able to navigate to Groups page",
@@ -142,7 +175,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3142603000,
+              "status": "passed"
             },
             "line": 18,
             "name": "User clicks on register button",
@@ -153,7 +187,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 24601300,
+              "status": "passed"
             },
             "line": 19,
             "name": "accept the pop up",
@@ -164,7 +199,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3152289600,
+              "status": "passed"
             },
             "line": 20,
             "name": "User can see group added message",
@@ -175,7 +211,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3097312500,
+              "status": "passed"
             },
             "line": 21,
             "name": "user clicks on unregister button",
@@ -186,7 +223,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 10855900,
+              "status": "passed"
             },
             "line": 22,
             "name": "accepts the pop up",
@@ -197,7 +235,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3173475600,
+              "status": "passed"
             },
             "line": 23,
             "name": "User can see ungroup message",
@@ -208,7 +247,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7157115300,
+              "status": "passed"
             },
             "line": 24,
             "name": "User clicks on One of the groups",
@@ -219,7 +259,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 99800,
+              "status": "passed"
             },
             "line": 25,
             "name": "User is able to see information of that group",
@@ -239,7 +280,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 7639055600,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on Elearning platform",
@@ -250,7 +292,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1314747300,
+              "status": "passed"
             },
             "line": 5,
             "name": "user enters username and password",
@@ -261,7 +304,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7940703600,
+              "status": "passed"
             },
             "line": 6,
             "name": "User clicks on the login button",
@@ -272,7 +316,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 64500,
+              "status": "passed"
             },
             "line": 7,
             "name": "User gets redirected to the dashboard",
@@ -283,7 +328,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2015105700,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on the My Courses on the menu bar",
@@ -294,7 +340,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 60000,
+              "status": "passed"
             },
             "line": 9,
             "name": "User gets redirected to the My Courses page",
@@ -305,7 +352,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5356963000,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on 123testing",
@@ -316,7 +364,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 48700,
+              "status": "passed"
             },
             "line": 11,
             "name": "User can see various icons",
@@ -328,16 +377,39 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 2141412200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initialization()"
+            }
+          }
+        ],
         "line": 43,
         "name": "Automate the Chat icon",
         "description": "",
         "id": "automation-testing-of-elearning-website;automate-the-chat-icon;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1092850600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closedriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 78800,
+              "status": "passed"
             },
             "line": 33,
             "name": "User can see various icons1",
@@ -348,7 +420,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2290951600,
+              "status": "passed"
             },
             "line": 34,
             "name": "User clicks on chat icon",
@@ -359,7 +432,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 350200,
+              "status": "passed"
             },
             "line": 35,
             "name": "User can able to goto message screen",
@@ -370,7 +444,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7865601800,
+              "status": "passed"
             },
             "line": 36,
             "name": "User enter \"Hi There\", \"@#$%^\u0026*!?\u003c\u003e!+\u003d\" in textarea",
@@ -395,7 +470,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 119100,
+              "status": "passed"
             },
             "line": 37,
             "name": "User is able to enter text and special symbols in the write field",
@@ -406,7 +482,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3133918500,
+              "status": "passed"
             },
             "line": 38,
             "name": "User clicks send message on entering text and special symbols",
@@ -417,7 +494,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 286900,
+              "status": "passed"
             },
             "line": 39,
             "name": "User is able to send message",
@@ -437,7 +515,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 7310351700,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on Elearning platform",
@@ -448,7 +527,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1399903000,
+              "status": "passed"
             },
             "line": 5,
             "name": "user enters username and password",
@@ -459,7 +539,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8614246300,
+              "status": "passed"
             },
             "line": 6,
             "name": "User clicks on the login button",
@@ -470,7 +551,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 81200,
+              "status": "passed"
             },
             "line": 7,
             "name": "User gets redirected to the dashboard",
@@ -481,7 +563,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2014230800,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on the My Courses on the menu bar",
@@ -492,7 +575,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 85900,
+              "status": "passed"
             },
             "line": 9,
             "name": "User gets redirected to the My Courses page",
@@ -503,7 +587,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5947771900,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on 123testing",
@@ -514,7 +599,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 43800,
+              "status": "passed"
             },
             "line": 11,
             "name": "User can see various icons",
@@ -532,16 +618,39 @@
             "value": "#@i3"
           }
         ],
+        "before": [
+          {
+            "result": {
+              "duration": 1875824500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initialization()"
+            }
+          }
+        ],
         "line": 46,
         "name": "Automate the Assignment icon",
         "description": "",
         "id": "automation-testing-of-elearning-website;automate-the-assignment-icon",
+        "after": [
+          {
+            "result": {
+              "duration": 1349837600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closedriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 232800,
+              "status": "passed"
             },
             "line": 47,
             "name": "User can see various icons2",
@@ -552,7 +661,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7130658600,
+              "status": "passed"
             },
             "line": 48,
             "name": "User clicks on assignments icon",
@@ -563,7 +673,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 83100,
+              "status": "passed"
             },
             "line": 49,
             "name": "user is able to see assignment given on selected course",
@@ -574,7 +685,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5140075700,
+              "status": "passed"
             },
             "line": 50,
             "name": "user clicks on ani assignment",
@@ -585,7 +697,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 189700,
+              "status": "passed"
             },
             "line": 51,
             "name": "User is able to see detailed description of assignments",
@@ -596,7 +709,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6246415600,
+              "status": "passed"
             },
             "line": 52,
             "name": "user clicks on upload my assignment",
@@ -607,7 +721,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 78600,
+              "status": "passed"
             },
             "line": 53,
             "name": "User is able to open the page from where User can upload assingment",
@@ -618,7 +733,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3133619600,
+              "status": "passed"
             },
             "line": 54,
             "name": "User click on Drag and drop file",
@@ -629,7 +745,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 70900,
+              "status": "passed"
             },
             "line": 55,
             "name": "User can be able to upload the file",
@@ -640,7 +757,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3120383400,
+              "status": "passed"
             },
             "line": 56,
             "name": "user clicks on upload simple button",
@@ -651,7 +769,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 86800,
+              "status": "passed"
             },
             "line": 57,
             "name": "User can see page from where user should upload assignment solution file",
@@ -662,7 +781,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3102027400,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat StepDefination.signupdefination.user_clicks_on_choose_file(signupdefination.java:426)\r\n\tat ✽.When User clicks on choose file(signup.feature:58)\r\n",
+              "status": "failed"
             },
             "line": 58,
             "name": "User clicks on choose file",
@@ -759,7 +880,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 7448267600,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on Elearning platform",
@@ -770,7 +892,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1260568700,
+              "status": "passed"
             },
             "line": 5,
             "name": "user enters username and password",
@@ -781,7 +904,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7904618100,
+              "status": "passed"
             },
             "line": 6,
             "name": "User clicks on the login button",
@@ -792,7 +916,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 127900,
+              "status": "passed"
             },
             "line": 7,
             "name": "User gets redirected to the dashboard",
@@ -803,7 +928,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2014153400,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on the My Courses on the menu bar",
@@ -814,7 +940,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 73900,
+              "status": "passed"
             },
             "line": 9,
             "name": "User gets redirected to the My Courses page",
@@ -825,7 +952,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5013578400,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on 123testing",
@@ -836,7 +964,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 79900,
+              "status": "passed"
             },
             "line": 11,
             "name": "User can see various icons",
@@ -854,16 +983,39 @@
             "value": "#@i4"
           }
         ],
+        "before": [
+          {
+            "result": {
+              "duration": 2126256300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initialization()"
+            }
+          }
+        ],
         "line": 68,
         "name": "Automate the survey icon",
         "description": "",
         "id": "automation-testing-of-elearning-website;automate-the-survey-icon",
+        "after": [
+          {
+            "result": {
+              "duration": 902951200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closedriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 74700,
+              "status": "passed"
             },
             "line": 69,
             "name": "User can see various icons5",
@@ -874,7 +1026,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4130916300,
+              "status": "passed"
             },
             "line": 70,
             "name": "User clicks on the survey icon",
@@ -885,7 +1038,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 94400,
+              "status": "passed"
             },
             "line": 71,
             "name": "User is on the survey page",
@@ -896,7 +1050,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3090269000,
+              "status": "passed"
             },
             "line": 72,
             "name": "User is able to see survey name on survey page",
@@ -907,7 +1062,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3081457500,
+              "status": "passed"
             },
             "line": 73,
             "name": "User is able to see anonymous in survey page",
@@ -927,7 +1083,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 7025471600,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on Elearning platform",
@@ -938,7 +1095,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1277187500,
+              "status": "passed"
             },
             "line": 5,
             "name": "user enters username and password",
@@ -949,7 +1107,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8105672800,
+              "status": "passed"
             },
             "line": 6,
             "name": "User clicks on the login button",
@@ -960,7 +1119,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 47600,
+              "status": "passed"
             },
             "line": 7,
             "name": "User gets redirected to the dashboard",
@@ -971,7 +1131,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2022049600,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on the My Courses on the menu bar",
@@ -982,7 +1143,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 70600,
+              "status": "passed"
             },
             "line": 9,
             "name": "User gets redirected to the My Courses page",
@@ -993,7 +1155,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5857305100,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on 123testing",
@@ -1004,7 +1167,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 62200,
+              "status": "passed"
             },
             "line": 11,
             "name": "User can see various icons",
@@ -1016,16 +1180,39 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 1734304100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initialization()"
+            }
+          }
+        ],
         "line": 106,
         "name": "Automate the Wiki icon",
         "description": "",
         "id": "automation-testing-of-elearning-website;automate-the-wiki-icon;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 966425800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closedriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 105000,
+              "status": "passed"
             },
             "line": 77,
             "name": "User can see various icons3",
@@ -1036,18 +1223,20 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6275868700,
+              "status": "passed"
             },
             "line": 78,
-            "name": "User cicks on Wiki icon",
+            "name": "User clicks on Wiki icon",
             "match": {
-              "location": "signupdefination.user_cicks_on_Wiki_icon()"
+              "location": "signupdefination.user_clicks_on_Wiki_icon()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 68200,
+              "status": "passed"
             },
             "line": 79,
             "name": "User is able to go on home page of wiki",
@@ -1058,7 +1247,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4226340500,
+              "status": "passed"
             },
             "line": 80,
             "name": "User clicks on Search button",
@@ -1069,7 +1259,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 86500,
+              "status": "passed"
             },
             "line": 81,
             "name": "User is able click on search button",
@@ -1080,7 +1271,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 119600,
+              "status": "passed"
             },
             "line": 82,
             "name": "User is able to go on search page where User can enter fields",
@@ -1091,7 +1283,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1098788300,
+              "status": "passed"
             },
             "line": 83,
             "name": "user enter \"Selenium\" in the search term field",
@@ -1111,7 +1304,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 69600,
+              "status": "passed"
             },
             "line": 84,
             "name": "User is able to enter text in search term field",
@@ -1122,7 +1316,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 66700,
+              "status": "passed"
             },
             "line": 85,
             "name": "User can see result of entered text",
@@ -1133,7 +1328,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3105863000,
+              "status": "passed"
             },
             "line": 86,
             "name": "user check the search also in content button",
@@ -1144,7 +1340,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 85100,
+              "status": "passed"
             },
             "line": 87,
             "name": "User is able to check the search also in content",
@@ -1155,7 +1352,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3215929800,
+              "status": "passed"
             },
             "line": 88,
             "name": "user check the Also search in older versions of each page button",
@@ -1166,7 +1364,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 76500,
+              "status": "passed"
             },
             "line": 89,
             "name": "User is able to check Also search in older versions of each page button",
@@ -1177,7 +1376,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4842426500,
+              "status": "passed"
             },
             "line": 90,
             "name": "User clicks on search button after checks button",
@@ -1188,7 +1388,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 98300,
+              "status": "passed"
             },
             "line": 91,
             "name": "User is able to search the text on clicking search button",
@@ -1199,7 +1400,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4339519500,
+              "status": "passed"
             },
             "line": 92,
             "name": "User clicks on statistics button",
@@ -1210,7 +1412,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5405299800,
+              "status": "passed"
             },
             "line": 93,
             "name": "user checks all links are working or not",
@@ -1221,7 +1424,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 109200,
+              "status": "passed"
             },
             "line": 94,
             "name": "User is able to click on all the links",
@@ -1232,7 +1436,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5395411000,
+              "status": "passed"
             },
             "line": 95,
             "name": "User clicks on all pages button",
@@ -1243,7 +1448,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 113400,
+              "status": "passed"
             },
             "line": 96,
             "name": "User is able to click on the all pages button",
@@ -1254,7 +1460,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 79000,
+              "status": "passed"
             },
             "line": 97,
             "name": "User is able to see all pages",
@@ -1265,7 +1472,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5548194900,
+              "status": "passed"
             },
             "line": 98,
             "name": "user clicks on latest changes button",
@@ -1276,7 +1484,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 81600,
+              "status": "passed"
             },
             "line": 99,
             "name": "User is able to click on latest changes button",
@@ -1287,7 +1496,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 52300,
+              "status": "passed"
             },
             "line": 100,
             "name": "user is able to see changes made last time",
@@ -1298,7 +1508,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4634742000,
+              "status": "passed"
             },
             "line": 101,
             "name": "User clicks on notify me of changes button",
@@ -1309,7 +1520,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 104900,
+              "status": "passed"
             },
             "line": 102,
             "name": "User is able to click on notify me of changes button",
@@ -1329,7 +1541,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 7075273900,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on Elearning platform",
@@ -1340,7 +1553,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1249613900,
+              "status": "passed"
             },
             "line": 5,
             "name": "user enters username and password",
@@ -1351,7 +1565,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 9283103600,
+              "status": "passed"
             },
             "line": 6,
             "name": "User clicks on the login button",
@@ -1362,7 +1577,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 62100,
+              "status": "passed"
             },
             "line": 7,
             "name": "User gets redirected to the dashboard",
@@ -1373,7 +1589,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2008778700,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on the My Courses on the menu bar",
@@ -1384,7 +1601,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 48800,
+              "status": "passed"
             },
             "line": 9,
             "name": "User gets redirected to the My Courses page",
@@ -1395,7 +1613,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6106584500,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on 123testing",
@@ -1406,7 +1625,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 45000,
+              "status": "passed"
             },
             "line": 11,
             "name": "User can see various icons",
@@ -1424,16 +1644,39 @@
             "value": "#@i6"
           }
         ],
+        "before": [
+          {
+            "result": {
+              "duration": 1704687300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initialization()"
+            }
+          }
+        ],
         "line": 109,
         "name": "Automate the Assessments icon",
         "description": "",
         "id": "automation-testing-of-elearning-website;automate-the-assessments-icon",
+        "after": [
+          {
+            "result": {
+              "duration": 958452500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closedriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 100100,
+              "status": "passed"
             },
             "line": 110,
             "name": "User can see various icons4",
@@ -1444,7 +1687,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5246758400,
+              "status": "passed"
             },
             "line": 111,
             "name": "User clicks on assessments icon",
@@ -1455,7 +1699,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 57300,
+              "status": "passed"
             },
             "line": 112,
             "name": "User is able to go on assessments page",
@@ -1466,7 +1711,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3109085200,
+              "status": "passed"
             },
             "line": 113,
             "name": "User clicks on list view button",
@@ -1477,7 +1723,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 69500,
+              "status": "passed"
             },
             "line": 114,
             "name": "User is able to see report in graph",
@@ -1488,7 +1735,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3092596700,
+              "status": "passed"
             },
             "line": 115,
             "name": "User clicks on close button",
@@ -1499,7 +1747,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 92400,
+              "status": "passed"
             },
             "line": 116,
             "name": "list view report will close",
@@ -1510,7 +1759,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3454048000,
+              "status": "passed"
             },
             "line": 117,
             "name": "user clicks on show button",
@@ -1521,7 +1771,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 510700,
+              "status": "passed"
             },
             "line": 118,
             "name": "user is able to see available tests",
@@ -1532,7 +1783,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5929151800,
+              "status": "passed"
             },
             "line": 119,
             "name": "user clicks on mtest link",
@@ -1543,7 +1795,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 45400,
+              "status": "passed"
             },
             "line": 120,
             "name": "User is on the start test page",
@@ -1554,7 +1807,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6290416600,
+              "status": "passed"
             },
             "line": 121,
             "name": "User clicks on start test",
@@ -1565,7 +1819,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 67300,
+              "status": "passed"
             },
             "line": 122,
             "name": "User is on the assessment page",
@@ -1576,7 +1831,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5329357600,
+              "status": "passed"
             },
             "line": 123,
             "name": "User clicks on tests button again to go back",
@@ -1587,7 +1843,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5925528500,
+              "status": "passed"
             },
             "line": 124,
             "name": "User clicks on assessments button again to go back",
@@ -1598,7 +1855,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5493508900,
+              "status": "passed"
             },
             "line": 125,
             "name": "User clicks on download report in pdf button",
@@ -1609,7 +1867,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 71000,
+              "status": "passed"
             },
             "line": 126,
             "name": "User is able to download pdf",
@@ -1629,7 +1888,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 7278514500,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on Elearning platform",
@@ -1640,7 +1900,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1242519300,
+              "status": "passed"
             },
             "line": 5,
             "name": "user enters username and password",
@@ -1651,7 +1912,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7800567700,
+              "status": "passed"
             },
             "line": 6,
             "name": "User clicks on the login button",
@@ -1662,7 +1924,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 53200,
+              "status": "passed"
             },
             "line": 7,
             "name": "User gets redirected to the dashboard",
@@ -1673,7 +1936,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2015513000,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on the My Courses on the menu bar",
@@ -1684,7 +1948,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 46400,
+              "status": "passed"
             },
             "line": 9,
             "name": "User gets redirected to the My Courses page",
@@ -1695,7 +1960,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5816312600,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on 123testing",
@@ -1706,7 +1972,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 58700,
+              "status": "passed"
             },
             "line": 11,
             "name": "User can see various icons",
@@ -1724,16 +1991,39 @@
             "value": "#@i7"
           }
         ],
+        "before": [
+          {
+            "result": {
+              "duration": 1748662500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initialization()"
+            }
+          }
+        ],
         "line": 129,
         "name": "Automate the Glossary icon",
         "description": "",
         "id": "automation-testing-of-elearning-website;automate-the-glossary-icon",
+        "after": [
+          {
+            "result": {
+              "duration": 918036400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closedriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 134200,
+              "status": "passed"
             },
             "line": 130,
             "name": "User can see various icon6",
@@ -1744,7 +2034,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5669510700,
+              "status": "passed"
             },
             "line": 131,
             "name": "User clicks on the glossary icon",
@@ -1755,7 +2046,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 61500,
+              "status": "passed"
             },
             "line": 132,
             "name": "User is able to see glossary list page",
@@ -1766,7 +2058,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3203917300,
+              "status": "passed"
             },
             "line": 133,
             "name": "User clicks on the export button",
@@ -1777,7 +2070,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 89100,
+              "status": "passed"
             },
             "line": 134,
             "name": "User is able to see different format of radio buttons",
@@ -1788,7 +2082,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3103056600,
+              "status": "passed"
             },
             "line": 135,
             "name": "User selects Export to pdf button",
@@ -1799,7 +2094,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4810733500,
+              "status": "passed"
             },
             "line": 136,
             "name": "User clicks on download button",
@@ -1810,7 +2106,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3077009700,
+              "status": "passed"
             },
             "line": 137,
             "name": "User is on some page",
@@ -1821,7 +2118,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6136698300,
+              "status": "passed"
             },
             "line": 138,
             "name": "User clicks on glossary link to go back",
@@ -1832,7 +2130,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 55300,
+              "status": "passed"
             },
             "line": 139,
             "name": "User is on the home page of glossary",
@@ -1843,7 +2142,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5746593100,
+              "status": "passed"
             },
             "line": 140,
             "name": "User clicks on the list view button",
@@ -1854,7 +2154,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 113400,
+              "status": "passed"
             },
             "line": 141,
             "name": "User is able to goto list page",
@@ -1874,7 +2175,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 6543773600,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on Elearning platform",
@@ -1885,7 +2187,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1283770400,
+              "status": "passed"
             },
             "line": 5,
             "name": "user enters username and password",
@@ -1896,7 +2199,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8898243800,
+              "status": "passed"
             },
             "line": 6,
             "name": "User clicks on the login button",
@@ -1907,7 +2211,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 37800,
+              "status": "passed"
             },
             "line": 7,
             "name": "User gets redirected to the dashboard",
@@ -1918,7 +2223,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2019164400,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on the My Courses on the menu bar",
@@ -1929,7 +2235,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 51500,
+              "status": "passed"
             },
             "line": 9,
             "name": "User gets redirected to the My Courses page",
@@ -1940,7 +2247,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5797320300,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on 123testing",
@@ -1951,7 +2259,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 61700,
+              "status": "passed"
             },
             "line": 11,
             "name": "User can see various icons",
@@ -1963,16 +2272,39 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 1827399900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initialization()"
+            }
+          }
+        ],
         "line": 173,
         "name": "Automate the Notebook icon",
         "description": "",
         "id": "automation-testing-of-elearning-website;automate-the-notebook-icon;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1038803500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closedriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 81700,
+              "status": "passed"
             },
             "line": 145,
             "name": "User can see various icon7",
@@ -1983,7 +2315,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5125209500,
+              "status": "passed"
             },
             "line": 146,
             "name": "User clicks on the Notebook icon",
@@ -1994,7 +2327,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 86200,
+              "status": "passed"
             },
             "line": 147,
             "name": "User is able to go to notebook home page",
@@ -2005,7 +2339,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5500783200,
+              "status": "passed"
             },
             "line": 148,
             "name": "User clicks on add new note in my personel notebook",
@@ -2016,7 +2351,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 46400,
+              "status": "passed"
             },
             "line": 149,
             "name": "User is able to create new note",
@@ -2027,7 +2363,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3128067500,
+              "status": "passed"
             },
             "line": 150,
             "name": "User enters \"admin\" in note title",
@@ -2047,7 +2384,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 53600,
+              "status": "passed"
             },
             "line": 151,
             "name": "User is able to enter text in note title",
@@ -2058,7 +2396,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5322774100,
+              "status": "passed"
             },
             "line": 152,
             "name": "User enters \"fdjgbrfhghojojyiojt59\" in the note details",
@@ -2078,7 +2417,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 73200,
+              "status": "passed"
             },
             "line": 153,
             "name": "User is able to enter details of notes",
@@ -2089,7 +2429,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4871039700,
+              "status": "passed"
             },
             "line": 154,
             "name": "User clicks on create note button",
@@ -2100,7 +2441,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 52700,
+              "status": "passed"
             },
             "line": 155,
             "name": "User is able to create note",
@@ -2111,7 +2453,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5060248000,
+              "status": "passed"
             },
             "line": 156,
             "name": "User clicks on sort by date created",
@@ -2122,7 +2465,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 77200,
+              "status": "passed"
             },
             "line": 157,
             "name": "User is able to see that notes are sorted according its date",
@@ -2133,7 +2477,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4292721900,
+              "status": "passed"
             },
             "line": 158,
             "name": "User clicks on sort by date last modified",
@@ -2144,7 +2489,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 61900,
+              "status": "passed"
             },
             "line": 159,
             "name": "User is able to see that notes are sorted according its date last modified",
@@ -2155,7 +2501,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4188150100,
+              "status": "passed"
             },
             "line": 160,
             "name": "User clicks on sort by title",
@@ -2166,7 +2513,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 359300,
+              "status": "passed"
             },
             "line": 161,
             "name": "User is able to see that notes are sorted according its title",
@@ -2177,7 +2525,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4992994700,
+              "status": "passed"
             },
             "line": 162,
             "name": "User clicks on edit button to edit note",
@@ -2188,7 +2537,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 69000,
+              "status": "passed"
             },
             "line": 163,
             "name": "User is able to edit the note",
@@ -2199,7 +2549,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4259588600,
+              "status": "passed"
             },
             "line": 164,
             "name": "User enters \"Hey there\" in note detail",
@@ -2219,7 +2570,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4775335200,
+              "status": "passed"
             },
             "line": 165,
             "name": "User clicks on edit my personel note button",
@@ -2230,7 +2582,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 105100,
+              "status": "passed"
             },
             "line": 166,
             "name": "User is able to edit the note on clicking button",
@@ -2241,7 +2594,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3128623200,
+              "status": "passed"
             },
             "line": 167,
             "name": "User clicks on delete button",
@@ -2252,7 +2606,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 15363400,
+              "status": "passed"
             },
             "line": 168,
             "name": "User have to accept the pop up",
@@ -2263,7 +2618,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 93600,
+              "status": "passed"
             },
             "line": 169,
             "name": "User is able to see previous notes",
@@ -2283,7 +2639,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 6721112800,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on Elearning platform",
@@ -2294,7 +2651,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1329894000,
+              "status": "passed"
             },
             "line": 5,
             "name": "user enters username and password",
@@ -2305,7 +2663,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7647339100,
+              "status": "passed"
             },
             "line": 6,
             "name": "User clicks on the login button",
@@ -2316,7 +2675,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 61900,
+              "status": "passed"
             },
             "line": 7,
             "name": "User gets redirected to the dashboard",
@@ -2327,7 +2687,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2011681100,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on the My Courses on the menu bar",
@@ -2338,7 +2699,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 42800,
+              "status": "passed"
             },
             "line": 9,
             "name": "User gets redirected to the My Courses page",
@@ -2349,7 +2711,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5404933900,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on 123testing",
@@ -2360,7 +2723,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 64900,
+              "status": "passed"
             },
             "line": 11,
             "name": "User can see various icons",
@@ -2378,16 +2742,39 @@
             "value": "#@i9"
           }
         ],
+        "before": [
+          {
+            "result": {
+              "duration": 1639702300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.initialization()"
+            }
+          }
+        ],
         "line": 176,
         "name": "Automate Selinium Project",
         "description": "",
         "id": "automation-testing-of-elearning-website;automate-selinium-project",
+        "after": [
+          {
+            "result": {
+              "duration": 1064812500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closedriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 67600,
+              "status": "passed"
             },
             "line": 177,
             "name": "User can see various icons8",
@@ -2398,7 +2785,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5059525400,
+              "status": "passed"
             },
             "line": 178,
             "name": "User clicks on selinium project",
@@ -2409,7 +2797,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 72700,
+              "status": "passed"
             },
             "line": 179,
             "name": "User is able to goto selinium project home page",
@@ -2420,7 +2809,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4065854400,
+              "status": "passed"
             },
             "line": 180,
             "name": "User clicks on Selenium task",
@@ -2431,7 +2821,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1276100,
+              "status": "passed"
             },
             "line": 181,
             "name": "User is able to see information of that project",
@@ -2442,7 +2833,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 72500,
+              "status": "passed"
             },
             "line": 182,
             "name": "User is able to see calender and the date of present day",
@@ -2453,7 +2845,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4399230700,
+              "status": "passed"
             },
             "line": 183,
             "name": "User clicks on exp csv file",
@@ -2464,7 +2857,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 102700,
+              "status": "passed"
             },
             "line": 184,
             "name": "User is able to download exp file in csv format",
