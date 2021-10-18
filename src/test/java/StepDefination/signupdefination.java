@@ -204,7 +204,7 @@ public class signupdefination {
 	    	System.out.println("User is able to click on one of the groups link");
 	    }
 	    catch(Exception e){
-	    	System.out.println("User is not bale to click on one of the groups link");
+	    	System.out.println("User is not bale to click on one of the groups link"+e);
 	    	Assert.fail();
 	    }
 	}
@@ -1297,7 +1297,7 @@ public class signupdefination {
 		   
 	   }
 	   catch(Exception e){
-		   System.out.println("User is not able to click on edit my personel note");
+		   System.out.println("User is not able to click on edit my personel note"+e);
 		   Assert.fail();
 	   }
 	   
